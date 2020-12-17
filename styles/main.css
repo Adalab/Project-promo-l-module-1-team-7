@@ -1,0 +1,22 @@
+/* FOOTER */
+
+.copyright {
+    color: #b8b8b9;
+    font-size: 14;
+    text-align: center;
+    line-height: 20px;
+}
+
+.logo {
+    height: 115.9px;
+    width: 45px;
+    align-items: center;
+}
+
+.container-footer {
+    flex-direction: column;
+    color: #54585a;
+    font-size: 14px;
+    text-align: center;
+    line-height: 20px;
+}
