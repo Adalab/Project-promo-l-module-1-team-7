@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* FOOTER */
 
 .copyright {
@@ -20,3 +21,48 @@
     text-align: center;
     line-height: 20px;
 }
+=======
+<<<<<<< HEAD
+/* {
+  border-style: solid;
+  border-color: blue;
+}
+/*
+=======
+* {
+  border: 2px solid blue;
+}
+
+:root {
+  --main-color: #099d8d;
+}
+:root {
+  --font-color: #ffffff;
+}
+
+.header {
+  background-color: var(--main-color);
+  width: 768px;
+  height: 60px;
+  margin: 0 0 281px;
+  padding: 15px 45px 14px;
+  font-family: Rubik; /* CAMBIAR TIPOGRAFIA*/
+  color: var(--font-color);
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+}
+
+.list {
+  display: flex;
+}
+
+/*.item {
+  flex-direction: ;
+}*/
+>>>>>>> 67bd6b5f67d88f30ff8b0812260a7bd19cca5bc1
+>>>>>>> c45fe540b915178964a155be54977726ad87da0d
