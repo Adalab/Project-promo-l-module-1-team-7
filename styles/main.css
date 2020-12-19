@@ -17,13 +17,12 @@
 /*HEADER*/
 
 .header {
-  background-color: var(--main-color);
-  color: var(--font-color);
   font-family: var(--font-family-principal);
   font-size: 16px;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
+  text-transform: uppercase;
   line-height: 1.88;
   letter-spacing: normal;
   width: 100%;
@@ -35,12 +34,42 @@
     padding: 15px 45px 14px;*/
 }
 
-.list {
+.heading {
+  display: flex;
+  background-color: var(--main-color);
+  text-align: center;
+  color: var(--font-color-white);
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-header {
   display: flex;
   list-style-type: none;
+  color: var(--font-color-white);
+  background-color: var(--color-aqua);
+  height: 45px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.link-header {
+  color: var(--font-color-white);
+  text-decoration: none;
+}
+
+a:visited {
+  color: var(--font-color-white);
+  text-decoration: none;
 }
 
 /*MAIN*/
+
+.hero {
+  position: absolute;
+}
 
 .who {
   text-align: center;
@@ -55,7 +84,7 @@
 .name {
   font-family: var(--font-family-principal);
   font-size: 20px;
-  color: var(--color-black: #000000);
+  color: var(--color-black);
 }
 
 .description {
