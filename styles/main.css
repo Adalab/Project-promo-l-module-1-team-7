@@ -130,11 +130,15 @@
 
 .container-icons {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   width: 124px;
   height: 30px;
   margin: auto;
   margin-bottom: 45px;
+  color: var(--color-blue-green);
+}
+i. {
+  color: var(--color-blue-gree);
 }
 
 /* FOOTER */
