@@ -11,6 +11,11 @@
   --color-black: #000000;
 }
 
+.container {
+  margin: 0px 15px;
+  background-color: pink;
+}
+
 /*HEADER*/
 
 .container-header {
@@ -41,7 +46,6 @@
   left: 0;
   z-index: 1;
   opacity: 0.95;
-  margin: 0;
 }
 
 .list-header {
@@ -58,7 +62,6 @@
   left: 0;
   z-index: 1;
   opacity: 0.9;
-  margin: 0;
 }
 
 .link-header {
@@ -69,7 +72,7 @@
 /*MAIN*/
 
 .main {
-  position: relative;
+  /*position: relative;*/
   top: 150px;
 }
 
@@ -91,16 +94,28 @@
 }
 
 .who {
+  padding-top: 30px;
+  padding-bottom: 45px;
   text-align: center;
 }
 
 .somos {
+  margin-bottom: 30px;
   font-family: var(--font-family-secundary);
   font-size: 24px;
   color: var(--color-blue-green);
 }
 
+.profile-photo {
+  width: 180px;
+  height: 180px;
+  margin: 0 55px 15px;
+  border: solid 5px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+}
+
 .name {
+  height: 45px;
   font-family: var(--font-family-principal);
   font-size: 20px;
   color: var(--color-black);
@@ -110,6 +125,7 @@
   font-family: var(--font-family-principal);
   font-size: 16px;
   color: var(--font-color-grey);
+  margin-bottom: 15px;
 }
 
 .container-icons {
@@ -118,14 +134,15 @@
   width: 124px;
   height: 30px;
   margin: auto;
+  margin-bottom: 45px;
 }
 
 /* FOOTER */
 
 .footer {
-  width: 100vw;
   border-top: solid var(--font-color-grey) 1px;
   height: 240px;
+  margin-top: 20px;
 }
 
 .copyright {
@@ -138,28 +155,22 @@
 }
 
 .container-footer {
-  flex-direction: column;
   color: #54585a;
   font-family: var(--font-family-principal);
   font-size: 14px;
   text-align: center;
-  line-height: 10px;
+  line-height: 20px;
   margin-top: 20px;
-  height: 100%;
   width: 100%;
+  font-weight: 600;
 }
 
 .logo {
-  height: 115.9px;
-  width: 45px;
+  height: 45px;
+  width: 115.9px;
   align-items: center;
   margin-top: 30px;
   margin-bottom: 45px;
 }
 
 /*COMÚN*/
-
-.container {
-  margin: 0px 15px;
-  background-color: pink;
-}
