@@ -69,11 +69,45 @@
   text-decoration: none;
 }
 
+
+/*HERO Y LEMA*/
+
+.image {
+  display: inline-block;
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.picture {
+  height: 421px;
+  background: url("../images/hero-equipo-7.png") center bottom no-repeat; /* PROTOTIPO IMAGEN PARA AVANZAR*/
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+}
+
+.hero .container {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.hero-title {
+  margin: 0;
+  padding: 10px;
+  background-color: white;
+  transform: translateY(50%);
+  flex-grow: 1;
+  margin: 0 15px;
+}
+
 /*MAIN*/
 
 .main {
   /*position: relative;*/
-  top: 150px;
+  top: 150px;  /*SOLUCION EQUIPO A tenemos que poner 0px*/
 }
 
 .dafo {
