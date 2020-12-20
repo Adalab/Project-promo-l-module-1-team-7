@@ -9,12 +9,13 @@
     --color-black: #000000;
 }
 
+.container {
+    margin: 0px 15px;
+    border: solid grey 2px;
+}
+
 
 /*HEADER*/
-
-.container {
-    margin: 0, 15px;
-}
 
 .container-header {
     width: 100%;
@@ -136,6 +137,13 @@ a:visited {
 
 /* FOOTER */
 
+.footer {
+    background-color: coral;
+    width: 100vw;
+    border-top: solid var(--font-color-grey) 1px;
+    height: 240px;
+}
+
 .copyright {
     color: #b8b8b9;
     font-family: var(--font-family-principal);
@@ -153,6 +161,8 @@ a:visited {
     text-align: center;
     line-height: 10px;
     margin-top: 20px;
+    height: 100%;
+    width: 100%;
 }
 
 .logo {
