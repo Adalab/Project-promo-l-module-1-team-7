@@ -81,7 +81,7 @@
 
 .picture {
   height: 421px;
-  background: url("../images/hero-equipo-7.png") center bottom no-repeat; /* PROTOTIPO IMAGEN PARA AVANZAR*/
+  background: url("../images/hero-equipo-7.png") center bottom no-repeat;
   background-size: cover;
   display: flex;
   align-items: flex-end;
@@ -105,8 +105,8 @@
 /*MAIN*/
 
 .main {
-  /*position: relative;*/
-  top: 150px; /*SOLUCION EQUIPO A tenemos que poner 0px*/
+  position: relative;
+  top: 0;
 }
 
 .dafo {
@@ -170,6 +170,10 @@
   margin-bottom: 45px;
   color: var(--color-blue-green);
 }
+a:visited {
+  color: var(--color-blue-green);
+  text-decoration: none;
+ } 
 
 /* FOOTER */
 
@@ -206,5 +210,3 @@
   margin-top: 30px;
   margin-bottom: 45px;
 }
-
-/*COMÚN*/
