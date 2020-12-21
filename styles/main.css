@@ -69,7 +69,6 @@
   text-decoration: none;
 }
 
-
 /*HERO Y LEMA*/
 
 .image {
@@ -107,7 +106,7 @@
 
 .main {
   /*position: relative;*/
-  top: 150px;  /*SOLUCION EQUIPO A tenemos que poner 0px*/
+  top: 150px; /*SOLUCION EQUIPO A tenemos que poner 0px*/
 }
 
 .dafo {
@@ -170,9 +169,6 @@
   margin: auto;
   margin-bottom: 45px;
   color: var(--color-blue-green);
-}
-i. {
-  color: var(--color-blue-gree);
 }
 
 /* FOOTER */
