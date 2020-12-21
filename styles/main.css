@@ -5,11 +5,6 @@
   border: 2px solid blue;
 }*/
 
-a:visited {
-    color: var(--color-blue-green);
-    text-decoration: none;
-}
-
  :root {
     --font-family-principal: "Open Sans", sans-serif;
     --font-family-secundary: "Rubik", sans-serif;
@@ -53,6 +48,7 @@ a:visited {
 }
 
 .heading {
+    font-family: var(--font-family-secundary);
     display: flex;
     background-color: var(--main-color);
     text-align: center;
@@ -71,6 +67,7 @@ a:visited {
 }
 
 .list-header {
+    font-family: var(--font-family-secundary);
     display: flex;
     justify-content: space-around;
     text-align: center;
@@ -130,6 +127,8 @@ a.link-header:visited {
 }
 
 .hero-title {
+    font-family: var(--font-family-primary);
+    font-weight: 600;
     margin: 0;
     padding: 10px;
     background-color: white;
@@ -149,6 +148,12 @@ a.link-header:visited {
 .dafo {
     text-align: center;
     background-color: #b8b8b9;
+    padding-top: 30px;
+    padding-bottom: 45px;
+}
+
+.separation-dafo {
+    margin-bottom: 30px;
 }
 
 .strength-heading {
@@ -169,7 +174,17 @@ a.link-header:visited {
     text-align: center;
 }
 
+.team {
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: var(--font-family-secundary);
+    font-size: 24px;
+    color: var(--color-aqua);
+    font-weight: 600;
+}
+
 .we-are {
+    text-align: center;
     margin-bottom: 30px;
     font-family: var(--font-family-secundary);
     font-size: 24px;
@@ -193,6 +208,7 @@ a.link-header:visited {
 }
 
 .description {
+    text-align: center;
     font-family: var(--font-family-principal);
     font-size: 16px;
     color: var(--font-color-grey);
@@ -206,14 +222,34 @@ a.link-header:visited {
     height: 30px;
     margin: auto;
     margin-bottom: 45px;
-    color: var(--color-blue-green);
     text-decoration: none;
+    color: var(--color-blue-green);
+}
+
+.link-icon {
+    color: var(--color-blue-green);
+}
+
+a.link-icon:visited {
+    color: var(--color-blue-green);
 }
 
 
 /* FOOTER */
 
+a.link-footer:visited {
+    color: var(--font-color-grey);
+    text-decoration: none;
+}
+
+.link-footer {
+    color: var(--font-color-grey);
+    text-decoration: none;
+    font-size: 14px;
+}
+
 .footer {
+    height: 60px;
     border-top: solid var(--font-color-grey) 1px;
     height: 240px;
     margin-top: 20px;
@@ -242,21 +278,9 @@ a.link-header:visited {
     text-decoration: none;
 }
 
-.anchor-footer {
-    color: #54585a;
-    font-family: var(--font-family-principal);
-    font-size: 14px;
-    text-align: center;
-    width: 100%;
-    font-weight: 600;
-    text-decoration: none;
-}
-
 .logo {
     height: 45px;
     width: 115.9px;
-    margin-top: 30px;
-    margin-bottom: 45px;
     display: block;
     margin: auto;
 }
@@ -264,4 +288,6 @@ a.link-header:visited {
 .logo-div {
     align-items: center;
     display: flex;
+    margin-top: 30px;
+    margin-bottom: 45px;
 }
