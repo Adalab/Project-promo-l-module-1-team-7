@@ -83,6 +83,8 @@
     opacity: 0.9;
     margin: 0;
     width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .link-header {
@@ -130,7 +132,8 @@ a.link-header:visited {
     font-family: var(--font-family-primary);
     font-weight: 600;
     margin: 0;
-    padding: 10px;
+    padding-top: 10px;
+    padding-left: 15px;
     background-color: white;
     transform: translateY(-50%);
     margin: 0 15px;
@@ -170,7 +173,7 @@ a.link-header:visited {
 
 .who {
     padding-top: 30px;
-    padding-bottom: 45px;
+    padding-bottom: 0px;
     text-align: center;
 }
 
@@ -213,6 +216,8 @@ a.link-header:visited {
     font-size: 16px;
     color: var(--font-color-grey);
     margin-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .container-icons {
@@ -221,7 +226,7 @@ a.link-header:visited {
     width: 124px;
     height: 30px;
     margin: auto;
-    margin-bottom: 45px;
+    margin-bottom: 10px;
     text-decoration: none;
     color: var(--color-blue-green);
 }
