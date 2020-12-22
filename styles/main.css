@@ -164,12 +164,14 @@ a.link-header:visited {
     color: var(--color-blue-green);
     font-family: var(--font-family-secundary);
     font-size: 22px;
+    padding-botton: 20px;
 }
 
 .weaknesses-heading {
     color: var(--color-blue-green);
     font-family: var(--font-family-secundary);
-    font-size: 22px;
+    font-size: 22px
+    padding-botton: 20px;
 }
 
 .who {
