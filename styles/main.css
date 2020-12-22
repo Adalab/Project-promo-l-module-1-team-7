@@ -134,6 +134,7 @@ a.link-header:visited {
     margin: 0;
     padding-top: 10px;
     padding-left: 15px;
+    padding-right: 15px;
     background-color: white;
     transform: translateY(-50%);
     margin: 0 15px;
@@ -152,7 +153,7 @@ a.link-header:visited {
     text-align: center;
     background-color: #b8b8b9;
     padding-top: 30px;
-    padding-bottom: 45px;
+    padding-bottom: 30px;
 }
 
 .separation-dafo {
@@ -179,7 +180,8 @@ a.link-header:visited {
 
 .team {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
+    margin-top:30px;
     font-family: var(--font-family-secundary);
     font-size: 24px;
     color: var(--color-aqua);
