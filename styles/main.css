@@ -149,10 +149,22 @@ a.link-header:visited {
     top: 0;
 }
 
+.triangle {
+    width: 0;
+    height: 0;
+    border-right: 30px solid transparent;
+    border-left: 30px solid transparent;
+    border-top: 30px solid var(--font-color-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    transform: translate(193px, -5px);
+}
+
 .dafo {
     text-align: center;
     background-color: #b8b8b9;
-    opacity: 0.2;
     padding-top: 30px;
     padding-bottom: 5px;
 }
@@ -307,3 +319,17 @@ a.link-footer:visited {
     margin-top: 30px;
     margin-bottom: 45px;
 }
+
+
+/*RESPONSIVE TABLET
+@media all and (min-width:768px) {
+
+}
+*/
+
+
+/*RESPONSIVE DESKTOP
+@media all and (min-width:1200px){
+
+}
+*/
