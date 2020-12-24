@@ -152,6 +152,7 @@ a.link-header:visited {
 .dafo {
     text-align: center;
     background-color: #b8b8b9;
+    opacity: 0.2;
     padding-top: 30px;
     padding-bottom: 5px;
 }
@@ -183,7 +184,7 @@ a.link-header:visited {
 .team {
     text-align: center;
     margin-bottom: 25px;
-    margin-top:30px;
+    margin-top: 30px;
     font-family: var(--font-family-secundary);
     font-size: 24px;
     color: var(--color-aqua);
@@ -275,16 +276,22 @@ a.link-footer:visited {
     margin-top: 30px;
 }
 
+.list-footer {
+    height: 60px;
+    padding: 20px 0 30px;
+}
+
 .container-footer {
     color: #54585a;
+    opacity: 0.75;
     font-family: var(--font-family-principal);
     font-size: 14px;
     text-align: center;
     line-height: 20px;
-    margin-top: 20px;
     width: 100%;
     font-weight: 600;
     text-decoration: none;
+    display: block;
 }
 
 .logo {
