@@ -365,13 +365,26 @@ a.link-footer:visited {
 
 /*MEDIA QUERIES */
 
-RESPONSIVE TABLET @media all and (min-width: 768px) {
+@media all and (min-width: 768px) {
     /* HEADER */
     /* MAIN */
+    .profile-left {
+        display: flex;
+        flex-direction: row;
+    }
+    .profile-right {
+        display: flex;
+        flex-direction: row-reverse;
+    }
     /* FOOTER */
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }
 
-RESPONSIVE DESKTOP @media all and (min-width:1200px) {
+@media all and (min-width:1200px) {
     /* HEADER */
     /* MAIN */
     /* FOOTER */
