@@ -337,6 +337,32 @@ a.link-footer:visited {
 }
 
 
+/* CONTACT */
+
+.contact {
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-family: var(--font-family-secundary);
+    font-size: 24px;
+    color: var(--color-blue-green);
+}
+
+.explication {
+    text-align: center;
+    font-family: var(--font-family-principal);
+    font-size: 10px;
+    color: var(--font-color-grey);
+    margin-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.accent {
+    color: var(--main-color);
+}
+
+
 /*MEDIA QUERIES */
 
 RESPONSIVE TABLET @media all and (min-width: 768px) {
