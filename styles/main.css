@@ -185,8 +185,6 @@ a.link-header:visited {
 }
 
 .who {
-  padding-top: 30px;
-  padding-bottom: 35px;
   text-align: center;
 }
 
@@ -206,16 +204,17 @@ a.link-header:visited {
 
 .we-are {
   text-align: center;
-  margin-bottom: 30px;
+  width: 193px;
+  height: 45px;
+  margin: 30px 62.5px 30px 64.5px;
   font-family: var(--font-family-secundary);
   font-size: 24px;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
-  line-height: 1.88;
+  line-height: 45px;
   letter-spacing: normal;
   color: var(--color-blue-green);
-  font-weight: 600;
 }
 
 .who-team {
@@ -241,7 +240,7 @@ a.link-header:visited {
 .photo {
   width: 180px;
   height: 180px;
-  margin-top: 5px;
+  margin: 0 70px 15px 70px;
 }
 
 .name {
@@ -250,7 +249,7 @@ a.link-header:visited {
   font-size: 20px;
   font-weight: normal;
   color: var(--color-black);
-  line-height: 2.25;
+  line-height: 45px;
 }
 
 .description-p1 {
@@ -284,7 +283,7 @@ a.link-header:visited {
   width: 124px;
   height: 30px;
   margin: auto;
-  margin-bottom: 10px;
+  margin: 15px 98px 45px;
   text-decoration: none;
   color: var(--color-blue-green);
 }
@@ -383,6 +382,9 @@ a.link-footer:visited {
     text-align: end;
     padding-right: 0;
     margin-right: 0;
+  }
+  .we-are {
+    margin-bottom: 41px;
   }
 
   /* FOOTER */
