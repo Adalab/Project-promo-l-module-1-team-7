@@ -274,6 +274,7 @@ a.link-header:visited {
   margin-bottom: 15px;
   padding-left: 15px;
   padding-right: 15px;
+
   /*Ponemos mejor los margenes en cada container, segun explicacion de columna?*/
 }
 
@@ -367,10 +368,12 @@ a.link-footer:visited {
   .left {
     display: flex;
     flex-direction: row;
+    margin: 0 44px;
   }
   .right {
     display: flex;
     flex-direction: row-reverse;
+    margin: 0 44px;
   }
 
   .l {
@@ -384,7 +387,13 @@ a.link-footer:visited {
     margin-right: 0;
   }
   .we-are {
-    margin-bottom: 41px;
+    margin: 45px 286.5px 41px 287.5px;
+  }
+  .photo {
+    margin: 0;
+  }
+  .description: {
+    margin: 0;
   }
 
   /* FOOTER */
@@ -414,5 +423,8 @@ a.link-footer:visited {
 @media all and (min-width: 1200px) {
   /* HEADER */
   /* MAIN */
-  /* FOOTER */
-}
+  .we-are {
+    margin: 45px 503.5px 41px 503.5px;
+  }
+    /* FOOTER */;
+
