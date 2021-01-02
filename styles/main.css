@@ -12,7 +12,7 @@
   --font-color-grey: #54585a;
   --color-cool-grey-opacity: rgba(184, 184, 185, 0.2);
   --color-aqua: #14d9c4;
-  --color-blue-green: #099d8d;
+  --color-blue-green: #099d8d; /* este color está repetido*/
   --color-black: #000000;
 }
 
@@ -369,6 +369,39 @@ a.link-footer:visited {
   }
 
   /* MAIN */
+
+  /*EQUIPO A*/
+  .description-p1 {
+    margin-bottom: 0;
+  }
+  /*SLOGAN*/
+
+  .slogan-box {
+    padding: 0 281px 0 46px;
+  }
+
+  .slogan {
+    width: 441px;
+    height: 80px;
+    opacity: 0.8;
+    transform: translateY(-100%);
+  }
+
+  /*DAFO*/
+
+  .media-strengths-weaknesses {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .strengths {
+    width: 50%;
+  }
+
+  .weaknesses {
+    width: 50%;
+  }
+
   .profile-left {
     display: flex;
     flex-direction: row;
@@ -377,6 +410,7 @@ a.link-footer:visited {
     display: flex;
     flex-direction: row-reverse;
   }
+
   /* FOOTER */
   .footer {
     display: flex;
