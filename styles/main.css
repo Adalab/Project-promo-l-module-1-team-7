@@ -347,6 +347,27 @@ a.link-footer:visited {
 
 @media all and (min-width: 768px) {
   /* HEADER */
+
+  .container-header {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: var(--main-color);
+    height: 60px;
+  }
+
+  .list-header {
+    background-color: var(--main-color);
+  }
+
+  .heading {
+    display: inline-block;
+    /*background-color: blue;*/
+    transform: translateY(-10px); /*find a better way*/
+    text-align: left;
+    padding-left: 45px;
+    height: 0;
+  }
+
   /* MAIN */
   .profile-left {
     display: flex;
