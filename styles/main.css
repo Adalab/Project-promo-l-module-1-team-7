@@ -340,7 +340,6 @@ a.link-footer:visited {
 .list-footer {
     height: 60px;
     margin-top: 20px;
-    line-height: 1.43px;
 }
 
 .container-footer {
@@ -416,12 +415,6 @@ a.link-footer:visited {
         margin: auto;
         border: 10px;
     }
-    /*  .frame-l {
-    margin-right: 36px;
-  }
-  .frame-r {
-    margin-left: 36px;
-  } */
     .photo {
         margin: 5px;
         height: 207px;
@@ -433,12 +426,10 @@ a.link-footer:visited {
     /* FOOTER */
     .footer {
         width: 30%;
-        height: 90px;
         line-height: 20px;
         padding-bottom: 15px;
         align-items: flex-start;
         margin-left: 45px;
-        margin-bottom: 45px;
         margin-top: 0;
     }
     .copyright {
@@ -446,6 +437,7 @@ a.link-footer:visited {
     }
     .logo-div {
         margin-top: 15px;
+        margin-bottom: 60px;
     }
     .list-footer {
         position: absolute;
@@ -457,8 +449,8 @@ a.link-footer:visited {
         margin-bottom: 56px;
     }
     .container-footer {
-        padding-top: 10px;
         align-items: flex-end;
+        line-height: 30px;
     }
 }
 
@@ -487,14 +479,19 @@ a.link-footer:visited {
         height: 278px;
         width: 278px;
     }
+    .frame-l,
+    .frame-r {
+        height: 288px;
+        width: 288px;
+        margin: auto;
+        border: 10px;
+    }
     /* FOOTER */
     .footer {
+        padding-bottom: 0;
         width: 30%;
-        height: 90px;
         line-height: 20px;
-        padding-bottom: 15px;
         margin-left: 138px;
-        margin-bottom: 47px;
     }
     .copyright {
         margin-top: 30px;
@@ -504,8 +501,8 @@ a.link-footer:visited {
         margin-top: 24px;
         margin-bottom: 47px;
     }
-    .container-footer {
-        padding-top: 24px;
+    .logo-div {
+        margin-bottom: 51px;
     }
 }
 
