@@ -376,16 +376,13 @@ a.link-footer:visited {
 @media all and (min-width: 768px) {
     /* HEADER */
     /* MAIN */
-    .who {
-        margin-bottom: 60px;
-    }
     .left {
         flex-direction: row;
-        margin: 0 44px 0 44px;
+        margin: 0 44px 60px 44px;
     }
     .right {
         flex-direction: row-reverse;
-        margin: 0 44px 0 44px;
+        margin: 0 44px 60px 44px;
     }
     .people-l {
         margin-left: 30px;
@@ -458,7 +455,7 @@ a.link-footer:visited {
     /* HEADER */
     /* MAIN */
     .who {
-        margin-bottom: 63px;
+        margin-bottom: 3px;
     }
     .people-l {
         margin-left: 45px;
@@ -468,11 +465,11 @@ a.link-footer:visited {
     }
     .left {
         flex-direction: row;
-        margin: 0 297px 0 138px;
+        margin: 0 297px 60px 138px;
     }
     .right {
         flex-direction: row-reverse;
-        margin: 0 138px 0 297px;
+        margin: 0 138px 60px 297px;
     }
     .photo {
         margin: 5px;
