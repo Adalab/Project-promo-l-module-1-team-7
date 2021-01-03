@@ -377,19 +377,22 @@ a.link-footer:visited {
 @media all and (min-width: 768px) {
     /* HEADER */
     /* MAIN */
-    .people-l {
-        margin-left: 45px;
-    }
-    .people-r {
-        margin-right: 45px;
+    .who {
+        margin-bottom: 60px;
     }
     .left {
         flex-direction: row;
-        margin: 0 45px 0 45px;
+        margin: 0 44px 0 44px;
     }
     .right {
         flex-direction: row-reverse;
-        margin: 0 45px 0 45px;
+        margin: 0 44px 0 44px;
+    }
+    .people-l {
+        margin-left: 30px;
+    }
+    .people-r {
+        margin-right: 30px;
     }
     .l {
         text-align: initial;
@@ -421,8 +424,8 @@ a.link-footer:visited {
   } */
     .photo {
         margin: 5px;
-        height: 205px;
-        width: 205px;
+        height: 207px;
+        width: 207px;
     }
     .description {
         margin: 0;
@@ -436,6 +439,13 @@ a.link-footer:visited {
         align-items: flex-start;
         margin-left: 45px;
         margin-bottom: 45px;
+        margin-top: 0;
+    }
+    .copyright {
+        margin-top: 30px;
+    }
+    .logo-div {
+        margin-top: 15px;
     }
     .list-footer {
         position: absolute;
@@ -443,7 +453,8 @@ a.link-footer:visited {
         right: 0;
         margin-right: 45px;
         padding: 0;
-        margin-top: 0;
+        margin-top: 24px;
+        margin-bottom: 56px;
     }
     .container-footer {
         padding-top: 10px;
@@ -454,5 +465,49 @@ a.link-footer:visited {
 @media all and (min-width: 1200px) {
     /* HEADER */
     /* MAIN */
+    .who {
+        margin-bottom: 63px;
+    }
+    .people-l {
+        margin-left: 45px;
+    }
+    .people-r {
+        margin-right: 45px;
+    }
+    .left {
+        flex-direction: row;
+        margin: 0 297px 0 138px;
+    }
+    .right {
+        flex-direction: row-reverse;
+        margin: 0 138px 0 297px;
+    }
+    .photo {
+        margin: 5px;
+        height: 278px;
+        width: 278px;
+    }
     /* FOOTER */
+    .footer {
+        width: 30%;
+        height: 90px;
+        line-height: 20px;
+        padding-bottom: 15px;
+        margin-left: 138px;
+        margin-bottom: 47px;
+    }
+    .copyright {
+        margin-top: 30px;
+    }
+    .list-footer {
+        margin-right: 138px;
+        margin-top: 24px;
+        margin-bottom: 47px;
+    }
+    .container-footer {
+        padding-top: 24px;
+    }
+}
+
+
 }
