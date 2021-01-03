@@ -136,7 +136,19 @@ a.link-header:visited {
 }
 
 /*MAIN*/
-
+.team {
+  text-align: center;
+  margin-bottom: 25px;
+  margin-top: 30px;
+  font-family: var(--font-family-secundary);
+  /*la letra Q no queda igual, revisar*/
+  font-size: 24px;
+  color: var(--color-aqua);
+  /* nos parece que queda raro que tenga otro color, es correcto?*/
+  font-weight: 500;
+  /* teniamos antes 600, pero no se si es necesario ponerlo*/
+  text-transform: uppercase;
+}
 .main {
   position: relative;
   top: 0;
@@ -148,7 +160,7 @@ a.link-header:visited {
 /*equipo y dafo lo pondría como secciones, ya que un articulo especifica un contenido independiente y autónomo que funciona por si mismo*/
 
 .container-dafo {
-  padding: 30px 15px 30px 15px;
+  padding: 30px 0 30px;
   background-color: var(--color-cool-grey-opacity);
 }
 
@@ -188,20 +200,6 @@ a.link-header:visited {
   text-align: center;
 }
 
-.team {
-  text-align: center;
-  margin-bottom: 25px;
-  margin-top: 30px;
-  font-family: var(--font-family-secundary);
-  /*la letra Q no queda igual, revisar*/
-  font-size: 24px;
-  color: var(--color-aqua);
-  /* nos parece que queda raro que tenga otro color, es correcto?*/
-  font-weight: 500;
-  /* teniamos antes 600, pero no se si es necesario ponerlo*/
-  text-transform: uppercase;
-}
-
 .we-are {
   text-align: center;
   width: 193px;
@@ -216,22 +214,25 @@ a.link-header:visited {
   letter-spacing: normal;
   color: var(--color-blue-green);
 }
-
 .who-team {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
 }
 
-.profile {
+.people-l,
+.people-r {
+  margin-bottom: 45px;
+}
+
+.frame-l,
+.frame-r {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+  justify-content: center;
   margin: 0 55px 15px;
   border-radius: 4px;
-}
-
-.frame {
   width: 190px;
   height: 190px;
   background-color: rgba(0, 0, 0, 0.08);
@@ -240,7 +241,7 @@ a.link-header:visited {
 .photo {
   width: 180px;
   height: 180px;
-  margin: 0 70px 15px 70px;
+  margin: 5px 70px 15px 70px;
 }
 
 .name {
@@ -274,6 +275,8 @@ a.link-header:visited {
   margin-bottom: 15px;
   padding-left: 15px;
   padding-right: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
 
   /*Ponemos mejor los margenes en cada container, segun explicacion de columna?*/
 }
@@ -284,7 +287,7 @@ a.link-header:visited {
   width: 124px;
   height: 30px;
   margin: auto;
-  margin: 15px 98px 45px;
+  margin-top: 15px;
   text-decoration: none;
   color: var(--color-blue-green);
 }
@@ -311,8 +314,6 @@ a.link-footer:visited {
 }
 
 .footer {
-  height: 60px;
-  height: 240px;
   margin-top: 30px;
   align-items: center;
   display: flex;
@@ -329,7 +330,8 @@ a.link-footer:visited {
 
 .list-footer {
   height: 60px;
-  padding: 20px 0 30px;
+  margin-top: 20px;
+  line-height: 1.43px;
 }
 
 .container-footer {
@@ -365,34 +367,56 @@ a.link-footer:visited {
 @media all and (min-width: 768px) {
   /* HEADER */
   /* MAIN */
+  .people-l {
+    margin-left: 31px;
+    max-width: 64%;
+  }
+  .people-r {
+    margin-right: 31px;
+    max-width: 64%;
+  }
+
   .left {
-    display: flex;
     flex-direction: row;
-    margin: 0 44px;
+    margin: 0 44px 0 44px;
   }
   .right {
-    display: flex;
     flex-direction: row-reverse;
-    margin: 0 44px;
+    margin: 0 44px 0 44px;
   }
 
   .l {
     text-align: initial;
-    padding-left: 0;
+    padding: 0;
     margin-left: 0;
   }
   .r {
     text-align: end;
-    padding-right: 0;
+    padding: 0;
     margin-right: 0;
   }
   .we-are {
     margin: 45px 286.5px 41px 287.5px;
   }
-  .photo {
-    margin: 0;
+  .frame-l,
+  .frame-r {
+    height: 215px;
+    width: 215px;
+    margin: auto;
+    border: 10px;
   }
-  .description: {
+  /*  .frame-l {
+    margin-right: 36px;
+  }
+  .frame-r {
+    margin-left: 36px;
+  } */
+  .photo {
+    margin: 5px;
+    height: 205px;
+    width: 205px;
+  }
+  .description {
     margin: 0;
   }
 
@@ -413,18 +437,17 @@ a.link-footer:visited {
     right: 0;
     margin-right: 45px;
     padding: 0;
+    margin-top: 0;
   }
   .container-footer {
     padding-top: 10px;
     align-items: flex-end;
   }
 }
-
 @media all and (min-width: 1200px) {
   /* HEADER */
   /* MAIN */
   .we-are {
     margin: 45px 503.5px 41px 503.5px;
   }
-    /* FOOTER */;
-
+}
