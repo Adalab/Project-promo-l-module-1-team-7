@@ -74,10 +74,11 @@
 }
 
 .list-item {
-  display: inline-block;
   width: 100%;
+  display: inline-block;
   text-align: center;
   text-decoration: none;
+  padding: 0 15px 0 15px;
 }
 
 .link-header {
@@ -422,14 +423,13 @@ a.link-footer:visited {
 
   /* MAIN */
   .team {
-    margin-top: 0;
+    margin-top: 15px;
   }
-
+  .team-container {
+    padding: 0 45px 60px 45px;
+  }
   .about {
     margin-bottom: 60px; /*se nos superponen los 2 margenes de 30px, por qué?*/
-  }
-  .media-team {
-    margin-bottom: 30px;
   }
 
   /*DAFO*/
@@ -437,6 +437,7 @@ a.link-footer:visited {
   .media-strengths-weaknesses {
     display: flex;
     flex-direction: row;
+    padding: 0 30px 0px 30px;
   }
 
   .strengths {
