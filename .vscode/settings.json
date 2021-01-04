@@ -1,3 +1,9 @@
 {
+<<<<<<< HEAD
     "liveServer.settings.port": 5501
+=======
+    "liveServer.settings.CustomBrowser": "chrome:PrivateMode",
+    "liveServer.settings.fullReload": true,
+    "liveServer.settings.AdvanceCustomBrowserCmdLine": ""
+>>>>>>> equipo-B
 }
