@@ -1,68 +1,289 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Rubik:wght@500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css" integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous" />
     <link rel="stylesheet" href="./assets/css/main.css" />
-    <link rel="icon" href="./assets/images/favicon.png" />
-  </head>
+    <title>Equipo 7</title>
+</head>
 
-  <body>
-    <div class="page">
-      <header class="page__header">
-        <img src="./assets/images/logo-adalab.png" alt="Adalab">
-        <h1>Bienvenidos a Adalab</h1>
-      </header>
+<body class="principal">
+    <header class="page__header container-header">
 
-      <main class="page__main">
-        <h2>Este es el starter kit de Adalab</h2>
-        <p>Lo usamos para aprender:</p>
-        <ul class="main__list">
-          <li>Sass</li>
-          <li>HTML partials</li>
-          <li>Gulp</li>
-          <li>y muchas cosas más</li>
-        </ul>
-        <p>Si quieres saber cúales son las rutas correctas para:</p>
-        <ul class="main__list">
-          <li>
-            una <code class="code">&lt;img /&gt;</code> mira el fichero
-            <code class="code">./src/html/partials/header.html</code>.
-          </li>
-          <li>
-            y para un <code class="code">background-image</code> mira el fichero
-            <code class="code">./src/html/scss/layout/_page.scss</code>.
-          </li>
-        </ul>
-        <p>
-          Si quieres saber cómo usar un partial HTML dentro de otro partial, busca en la carperta
-          <code class="code">./src/html/index.html</code> y
-          <code class="code">./src/html/partials/main.html</code>, y verás cómo estamos creando estos
-          enlaces:
-        </p>
-        <ul class="main__list">
-          <li>
-            <a class="link__adalab" href="https://adalab.es">Adalab</a>
+        <h2 class="heading">The Fearle.css</h2>
 
-          </li>
-          <li>
-            <a class="" href="./more-info.html">Más info del starter kit</a>
+        <nav class="navigation">
+            <ul class="list-header">
+                <li class="list-item">
+                    <a href="#anchor-team" class="link-header">Equipo</a>
+                </li>
+                <li class="list-item">
+                    <a href="#anchor-who" class="link-header" href="">quienes somos</a>
 
-          </li>
-        </ul>
-      </main>
+                </li>
+                <li class="list-item">
+                    <a class="link-header" href="./contact.html" target="_blank">contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="container-hero">
+            <div class="image"></div>
+            <div class="slogan-box">
+                <p class="slogan">
+                    Fear is the path to the dark side. Fear leads to anger. Anger leads to hate. Hate leads to suffering. Fearle.css leads to success!</p>
+            </div>
+        </section>
+        <section class="container" id="anchor-team">
+            <h2 class="team">Equipo</h2>
+            <div class="team-container">
+                <p class="description-p1">Somos un equipo formado por cinco mujeres valientes que nos adaptamos a los cambios, incluso a los de 180 grados.</p>
+                <p class="description">Futuras programadoras Front-End, todas venimos de diferentes ámbitos profesionales y estamos juntas en este nuevo y apasionante viaje. Es la era de las mujeres en las nuevas tecnologías: es nuestro momento!</p>
+            </div>
+        </section>
+        <section class="container-dafo">
+            <div class="triangle-box">
+                <div class="triangle"></div>
+            </div>
+            <div class="media-strengths-weaknesses">
+                <div class="strengths">
+                    <h2 class="title-strengths-weaknesses">Fortalezas</h2>
+                    <p class="description-p1">Nuestras decisiones dicen que somos valientes y resilientes, dedicadas a cumplir objetivos y superar los obstáculos, demuestran que somos profesionales y entregadas.
+                    </p>
 
-      <footer class="page__footer">
-        <small>
-          &copy; Todos los derechos reservados
-          <a class="link__adalab" href="https://adalab.es">Adalab</a>
+                    <p class="description">Tenemos formación y experiencias variadas, amplias y de calidad, haciendo nuestros perfiles ricos en conocimientos, competencias ¡y versátiles!</p>
+                    </p>
+                    <p class="description"><strong>Somos Adalabers</strong> </p>
+                </div>
 
-        </small>
-      </footer>
+                <div class="weaknesses">
+                    <h2 class="title-strengths-weaknesses">Debilidades</h2>
+                    <p class="description">Buscamos el mejor desempeño en nosotras mismas y en nuestros equipos, siempre ¿fortaleza o debilidad? Las horas se nos pasan volando, sin importar con qué y aún buscamos el mejor equilibrio entre el trabajo autónomo y el trabajo en equipo.
+                    </p>
+                </div>
+            </div>
 
-    </div>
-    <script src="./assets/js/main.js"></script>
-  </body>
+        </section>
+        <section class="who" id="anchor-who">
+
+            <h2 class="we-are">QUIÉNES SOMOS</h2>
+            <article class="container who-team left">
+                <div class="frame-l">
+                    <img class="photo" src="./assets/images/camilla.png" alt="camilla-bachna" />
+                </div>
+                <section class="people-l">
+                    <h3 class="name l">Camilla Bachna</h3>
+                    <p class="description l">
+                        Estudié Derecho y he trabajado en varios bufetes de abogados y empresas internacionales. Soy una gran apasionada de la digitalización, la música y el café. He vivido en cuatro países y viajado por todos los continentes. Tras llegar a España descubrí mi
+                        nueva pasión: el desarrollo Front-End.
+                    </p>
+                    <section class="container-icons l">
+                        <div>
+                            <i class="fa fa-twitter" aria-hidden="true" alt="icono-twitter"></i>
+                        </div>
+                        ·
+                        <div>
+                            <a class="link-icon" href="https://www.linkedin.com/in/camilla-bachna-815147146">
+                                <i class="fa fa-linkedin" aria-hidden="true" alt="icono-linkedin"></i>
+                            </a>
+                        </div>
+                        ·
+                        <div>
+                            <a class="link-icon" href="https://github.com/camilla-bachna/ejercicios-de-adalab" target="_blank">
+                                <i class="fa fa-github-alt" aria-hidden="true" alt="icono-github-alt"></i>
+                            </a>
+                        </div>
+                        ·
+                        <div>
+                            <a class="link-icon" href="mailto:camilla.bachna@gmail.com" target="_blank">
+                                <i class="fa fa-envelope" aria-hidden="true" alt="icono-envelope"></i>
+                            </a>
+                        </div>
+                    </section>
+            </article>
+            </section>
+            <section class="profile-right container">
+
+                <article class="container who-team right">
+                    <div class="frame-r">
+                        <img class="photo" src="./assets/images/cristina.png" alt="cristina-blanco" />
+                    </div>
+                    <section class="people-r">
+                        <h3 class="name r">Cristina Blanco</h3>
+                        <p class="description r">
+                            Soy project manager de proyectos educativos relacionados con el desarrollo de habilidades digitales entre la infancia y la adolescencia con menos oportunidades, en una organización social.
+                        </p>
+                        <p class="description r">
+                            Me gusta la idea de enriquecer mi perfil profesional convirtiéndome en programadora Front-End para ampliar mi visión, mi conocimiento y el impacto de los proyectos futuros que cree o con los que colabore.
+                        </p>
+                        <section class="container-icons r">
+                            <div>
+                                <a class="link-icon" href="https://twitter.com/CristinaBlanci" target=_blank>
+                                    <i class="fa fa-twitter" aria-hidden="true" alt="icono-twitter"></i>
+                                </a>
+                            </div>
+                            ·
+                            <div>
+                                <a class="link-icon" href="http://www.linkedin.com/in/cristina-blanco-iglesias" target=_blank>
+                                    <i class="fa fa-linkedin" aria-hidden="true" alt="icono-linkedin"></i>
+                                </a>
+                            </div>
+                            ·
+                            <div>
+                                <a class="link-icon" href="https://github.com/CrisBIB" target="_blank">
+                                    <i class="fa fa-github-alt" aria-hidden="true" alt="icono-github-alt"></i>
+                                </a>
+                            </div>
+                            ·
+                            <div>
+                                <a class="link-icon" href="mailto:cristinabiglesias@gmail.com" target="_blank">
+                                    <i class="fa fa-envelope" aria-hidden="true" alt="icono-envelope"></i>
+                                </a>
+                            </div>
+                        </section>
+                    </section>
+                </article>
+                <section class="profile-left container">
+
+                    <article class="container who-team left">
+                        <div class="frame-l">
+                            <img class="photo" src="./assets/images/irene.png" alt="irene-mañas" />
+                        </div>
+                        <section class="people-l">
+                            <h3 class="name l">Irene Mañas</h3>
+                            <p class="description l">
+                                Diseñadora superior de Moda. Creativa y pragmática, adaptable y organizada, flexible y comprometida, son algunas de las dualidades que conforman mi personalidad. La experiencia en diferentes sectores (textil-moda, marketing-comunicación, docencia, turismo-hostelería)
+                                ha favorecido el ejercicio de diferentes roles en diversos equipos de trabajo.
+                            </p>
+                            <section class="container-icons l">
+                                <div>
+                                    <i class="fa fa-twitter" aria-hidden="true" alt="icono-twitter"></i>
+                                </div>
+                                ·
+                                <div>
+                                    <a class="link-icon" href="https://www.linkedin.com/in/irene-ma%C3%B1as-alcaide-5343b516b/" target=_blank>
+                                        <i class="fa fa-linkedin" aria-hidden="true" alt="icono-linkedin"></i>
+                                    </a>
+                                </div>
+                                ·
+                                <div>
+                                    <a class="link-icon" href="https://github.com/irenemanas" target="_blank">
+                                        <i class="fa fa-github-alt" aria-hidden="true" alt="icono-github-alt"></i>
+                                    </a>
+                                </div>
+                                ·
+                                <div>
+                                    <a class="link-icon" href="mailto:irenemanas@gmail.com" target="_blank">
+                                        <i class="fa fa-envelope" aria-hidden="true" alt="icono-envelope"></i>
+                                    </a>
+                                </div>
+                            </section>
+                    </article>
+                    </section>
+                    <section class="profile-right container">
+
+
+                        <article class="container who-team right">
+                            <div class="frame-r">
+                                <img class="photo" src="./assets/images/laura.png" alt="laura-portillo" />
+                            </div>
+                            <section class="people-r">
+                                <h3 class="name r">Laura Portillo</h3>
+                                <p class="description r">
+                                    Unas de mis mejores habilidades son la organización y la creatividad, que me han acompañado en mi carrera profesional como Arquitecto trabajando con equipos multidisciplinares e internacionales. Estamos en una etapa de adaptación y ha llegado el momento
+                                    de adaptarse a las nuevas tecnologías. La programación encaja con mi forma de ser y estoy encantada de formar parte de este equipo.
+                                </p>
+                                <section class="container-icons r">
+                                    <div>
+                                        <i class="fa fa-twitter" aria-hidden="true" alt="icono-twitter"></i>
+                                    </div>
+                                    ·
+                                    <div>
+                                        <a class="link-icon" href="https://www.linkedin.com/in/laura-portillo-rodr%C3%ADguez-21965a86/" target=_blank>
+                                            <i class="fa fa-linkedin" aria-hidden="true" alt="icono-linkedin"></i>
+                                        </a>
+                                    </div>
+                                    ·
+                                    <div>
+                                        <a class="link-icon" href="https://github.com/lauraportillo" target="_blank">
+                                            <i class="fa fa-github-alt" aria-hidden="true" alt="icono-github-alt"></i>
+                                        </a>
+                                    </div>
+                                    ·
+                                    <div>
+                                        <a class="link-icon" href="mailto:lauraportillo.ark@gmail.com" target="_blank">
+                                            <i class="fa fa-envelope" aria-hidden="true" alt="icono-envelope"></i>
+                                        </a>
+                                    </div>
+                                </section>
+                        </article>
+                        </section>
+                        <section class="profile-left container">
+
+                            <article class="container who-team left">
+                                <div class="frame-l">
+                                    <img class="photo" src="./assets/images/marta.png" alt="marta-cano" />
+                                </div>
+                                <section class="people-l">
+                                    <h3 class="name l">Marta Cano</h3>
+                                    <p class="description l">
+                                        Soy una diseñadora UX/UI que decidió aprender programación para poder plasmar con código los diseños que creaba. Además de haber jugado al rugby durante algo más de diez años (con todos los aprendizajes personales y moratones que eso conlleva) Me considero
+                                        una persona proactiva, creativa y con una mente abierta capaz de converger en una gran idea.
+                                    </p>
+                                    <section class="container-icons l">
+                                        <div>
+                                            <i class="fa fa-twitter" aria-hidden="true" alt="icono-twitter"></i>
+                                        </div>
+                                        ·
+                                        <div>
+                                            <a class="link-icon" href="https://www.linkedin.com/in/martacacio/" target="_blank">
+                                                <i class="fa fa-linkedin" aria-hidden="true" alt="icono-linkedin"></i>
+                                            </a>
+                                        </div>
+                                        ·
+                                        <div>
+                                            <a class="link-icon" href="https://github.com/Martcacio" target="_blank">
+                                                <i class="fa fa-github-alt" aria-hidden="true" alt="icono-github-alt"></i>
+                                            </a>
+                                        </div>
+                                        </div>
+                                        ·
+                                        <div>
+                                            <a class="link-icon" href="mailto:martanchor@gmail.com" target="_blank">
+                                                <i class="fa fa-envelope" aria-hidden="true" alt="icono-envelope"></i>
+                                            </a>
+                                        </div>
+                                    </section>
+                                </section>
+                            </article>
+                        </section>
+    </main>
+
+    <footer class="page__footer">
+        <section class="container footer">
+            <div class="copyright">The Fearle.css &#169; 2020</div>
+            <ul class="list-footer">
+                <il class="container-footer">
+                    <a class="link-footer" href="#anchor-team">EQUIPO</a>
+                </il>
+                <il class="container-footer">
+                    <a class="link-footer" href="#anchor-who">QUIÉNES SOMOS</a>
+                </il>
+                <il class="container-footer">
+                    <a class="link-footer" href="./contact.html">CONTACTO</a>
+                </il>
+            </ul>
+            <div class="logo-div">
+                <img class="logo" src="./assets/images/adalab_brand.png" alt="logo-adalab" />
+            </div>
+        </section>
+    </footer>
+</body>
+
 </html>
