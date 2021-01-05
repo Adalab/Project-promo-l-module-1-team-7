@@ -1,0 +1,78 @@
+.who {
+    text-align: center;
+    align-items: center;
+}
+
+.we-are {
+    text-align: center;
+    width: 193px;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    line-height: 45px;
+    font-family: var(--font-family-secundary);
+    font-size: 24px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: var(--color-blue-green);
+}
+
+.who-team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.people-l,
+.people-r {
+    margin-bottom: 45px;
+}
+
+.frame-l,
+.frame-r {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 55px 15px;
+    border-radius: 4px;
+    width: 190px;
+    height: 190px;
+    background-color: rgba(0, 0, 0, 0.08);
+}
+
+.photo {
+    width: 180px;
+    height: 180px;
+    margin: 5px 70px 15px 70px;
+}
+
+.name {
+    height: 45px;
+    font-family: var(--font-family-principal);
+    font-size: 20px;
+    font-weight: normal;
+    color: var(--color-black);
+    line-height: 45px;
+}
+
+.container-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 124px;
+    height: 30px;
+    margin: auto;
+    margin-top: 15px;
+    text-decoration: none;
+    color: var(--color-blue-green);
+}
+
+.link-icon {
+    color: var(--color-blue-green);
+}
+
+a.link-icon:visited {
+    color: var(--color-blue-green);
+}

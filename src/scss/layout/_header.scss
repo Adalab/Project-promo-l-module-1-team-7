@@ -1,5 +1,63 @@
-.page__header {
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+.container-header {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-family-secundary);
+    background-color: var(--main-color);
+    color: var(--font-color-white);
+    height: 60px;
+    width: 100%;
+    opacity: 0.95;
+    font-size: 16px;
+}
+
+.navigation {
+    width: 100%;
+}
+
+.list-header {
+    font-family: var(--font-family-secundary);
+    list-style-type: none;
+    text-decoration: none;
+    color: var(--font-color-white);
+    background-color: var(--color-aqua);
+    height: 45px;
+    opacity: 0.9;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+.list-item {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    padding: 0 15px 0 15px;
+}
+
+.link-header {
+    color: var(--font-color-white);
+    text-decoration: none;
+    font-size: 15px;
+}
+
+a.link-header:visited {
+    color: var(--font-color-white);
+    text-decoration: none;
 }

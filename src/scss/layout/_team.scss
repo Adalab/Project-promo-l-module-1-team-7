@@ -1,0 +1,13 @@
+.team {
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 30px;
+    font-family: var(--font-family-secundary);
+    /*la letra Q no queda igual, revisar*/
+    font-size: 24px;
+    color: var(--color-aqua);
+    /* nos parece que queda raro que tenga otro color, es correcto?*/
+    font-weight: 500;
+    /* teniamos antes 600, pero no se si es necesario ponerlo*/
+    text-transform: uppercase;
+}

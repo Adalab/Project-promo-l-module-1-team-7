@@ -1,0 +1,35 @@
+.container-dafo {
+    padding: 30px 15px 30px 15px;
+    background-color: var(--color-cool-grey-opacity);
+}
+
+.triangle-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-right: 30px solid transparent;
+    border-left: 30px solid transparent;
+    border-top: 30px solid var(--font-color-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-30px);
+}
+
+.title-strengths-weaknesses {
+    color: var(--color-blue-green);
+    font-family: var(--font-family-secundary);
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.strengths {
+    margin-bottom: 30px;
+}
