@@ -1,9 +1,7 @@
 .who {
-    text-align: center;
-    align-items: center;
-}
-
-.we-are {
+  text-align: center;
+  align-items: center;
+  &__tittle {
     text-align: center;
     width: 193px;
     margin: auto;
@@ -17,22 +15,43 @@
     font-style: normal;
     letter-spacing: normal;
     color: var(--color-blue-green);
+    @media all and (min-width: 768px) {
+      padding: 0;
+      margin: auto;
+      margin-top: 45px;
+      margin-bottom: 41px;
+    }
+    @media all and (min-width: 1200px) {
+      margin-bottom: 3px;
+    }
+  }
+  &__left {
+    @media all and (min-width: 768px) {
+      flex-direction: row;
+      margin: 0 44px 60px 44px;
+    }
+    @media all and (min-width: 1200px) {
+      flex-direction: row;
+      margin: 0 297px 60px 138px;
+    }
+  }
+  &__right {
+    @media all and (min-width: 768px) {
+      flex-direction: row-reverse;
+      margin: 0 44px 60px 44px;
+    }
+    @media all and (min-width: 1200px) {
+      flex-direction: row-reverse;
+      margin: 0 138px 60px 297px;
+    }
+  }
 }
-
-.who-team {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.people-l,
-.people-r {
-    margin-bottom: 45px;
-}
-
-.frame-l,
-.frame-r {
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  &__frame {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -41,38 +60,134 @@
     width: 190px;
     height: 190px;
     background-color: rgba(0, 0, 0, 0.08);
+    @media all and (min-width: 768px) {
+      height: 215px;
+      width: 215px;
+      margin: auto;
+      border: 10px;
+    }
+    @media all and (min-width: 1200px) {
+      height: 288px;
+      width: 288px;
+      margin: auto;
+      border: 10px;
+    }
+    &--photo {
+      width: 180px;
+      height: 180px;
+      margin: 5px 70px 15px 70px;
+      @media all and (min-width: 768px) {
+        margin: 5px;
+        height: 207px;
+        width: 207px;
+      }
+      @media all and (min-width: 1200px) {
+        height: 278px;
+        width: 278px;
+      }
+    }
+  }
+  &__left-text {
+    margin-bottom: 45px;
+    @media all and (min-width: 768px) {
+      margin-left: 30px;
+      margin-bottom: 0;
+    }
+    @media all and (min-width: 1200px) {
+      margin-left: 45px;
+    }
+    &--name {
+      height: 45px;
+      font-family: var(--font-family-principal);
+      font-size: 20px;
+      font-weight: normal;
+      color: var(--color-black);
+      line-height: 45px;
+    }
+    &--bio {
+      text-align: center;
+      font-family: var(--font-family-principal);
+      font-size: 16px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      color: var(--font-color-grey);
+      margin-bottom: 15px;
+      padding: 0 5px;
+    }
+    &--icons {
+      display: flex;
+      justify-content: space-between;
+      width: 124px;
+      height: 30px;
+      margin: auto;
+      margin-top: 15px;
+      text-decoration: none;
+      color: var(--color-blue-green);
+    }
+  }
+  &__right-text {
+    margin-bottom: 45px;
+    @media all and (min-width: 768px) {
+      margin-right: 30px;
+      margin-bottom: 0;
+    }
+    @media all and (min-width: 1200px) {
+      margin-right: 45px;
+    }
+    &--name {
+      height: 45px;
+      font-family: var(--font-family-principal);
+      font-size: 20px;
+      font-weight: normal;
+      color: var(--color-black);
+      line-height: 45px;
+    }
+    &--bio {
+      text-align: center;
+      font-family: var(--font-family-principal);
+      font-size: 16px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      color: var(--font-color-grey);
+      margin-bottom: 15px;
+      padding: 0 5px;
+    }
+    &--icons {
+      display: flex;
+      justify-content: space-between;
+      width: 124px;
+      height: 30px;
+      margin: auto;
+      margin-top: 15px;
+      text-decoration: none;
+      color: var(--color-blue-green);
+    }
+  }
 }
-
-.photo {
-    width: 180px;
-    height: 180px;
-    margin: 5px 70px 15px 70px;
+.l {
+  @media all and (min-width: 768px) {
+    text-align: initial;
+    padding: 0;
+    margin-left: 0;
+  }
 }
-
-.name {
-    height: 45px;
-    font-family: var(--font-family-principal);
-    font-size: 20px;
-    font-weight: normal;
-    color: var(--color-black);
-    line-height: 45px;
+.r {
+  @media all and (min-width: 768px) {
+    text-align: end;
+    padding: 0;
+    margin-right: 0;
+  }
 }
-
-.container-icons {
-    display: flex;
-    justify-content: space-between;
-    width: 124px;
-    height: 30px;
-    margin: auto;
-    margin-top: 15px;
-    text-decoration: none;
-    color: var(--color-blue-green);
-}
-
+/*Pregunta a Iván cómo integrarlo*/
 .link-icon {
-    color: var(--color-blue-green);
+  color: var(--color-blue-green);
 }
-
 a.link-icon:visited {
-    color: var(--color-blue-green);
+  color: var(--color-blue-green);
 }
