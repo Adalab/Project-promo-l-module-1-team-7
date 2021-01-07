@@ -25,6 +25,12 @@
       margin-bottom: 3px;
     }
   }
+}
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
   &__left {
     @media all and (min-width: 768px) {
       flex-direction: row;
@@ -45,12 +51,6 @@
       margin: 0 138px 60px 297px;
     }
   }
-}
-.profile {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
   &__frame {
     display: flex;
     flex-direction: row;
