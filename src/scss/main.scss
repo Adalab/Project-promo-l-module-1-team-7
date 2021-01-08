@@ -10,22 +10,10 @@
 @import "layout/dafo";
 @import "layout/who";
 @import "layout/footer";
+@import "layout/main-contact";
+@import "layout/form-contact";
 // Components
 @import "components/links";
 // Pages
 @import "pages/index";
 @import "pages/contact";
-
-/*MEDIA QUERIES 
-    /* MAIN 
-    @media all and (min-width: 768px) {
-    
-    .profile-left {
-        display: flex;
-        flex-direction: row;
-    }
-    .profile-right {
-        display: flex;
-        flex-direction: row-reverse;
-    }
-} */

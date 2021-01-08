@@ -1,0 +1,19 @@
+    .contact {
+        text-align: center;
+        margin-bottom: 25px;
+        margin-top: 30px;
+        font-family: var(--font-family-secundary);
+        font-size: 24px;
+        color: var(--color-blue-green);
+        font-weight: 500;
+        text-transform: uppercase;
+        @media all and (min-width: 768px) {
+            margin-top: 15px;
+        }
+    }
+    
+    @media all and (min-width: 768px) {
+        .contact-container {
+            padding: 0 45px 60px 45px;
+        }
+    }
