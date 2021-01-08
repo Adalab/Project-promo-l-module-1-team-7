@@ -41,6 +41,12 @@
 
 .navigation {
   width: 100%;
+  @media all and (min-width: 768px) {
+    margin-right: 45px;
+  }
+  @media all and (min-width: 1200px) {
+    margin-right: 138px;
+  }
 }
 
 .list-header {
@@ -58,9 +64,7 @@
   align-items: center;
   @media all and (min-width: 768px) {
     background-color: var(--main-color);
-  }
-  @media all and (min-width: 1200px) {
-    margin-right: 138px; /*no funciona porque se amplia automaticamente, sin respetar el margen*/
+    justify-content: flex-end;
   }
 }
 
