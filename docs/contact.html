@@ -1,1 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
 
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Rubik:wght@500&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css"
+        integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <title>Contacto</title>
+</head>
+
+<body class="principal">
+    <header class="header">
+
+        <h2 class="header__heading">The Fearle.css</h2>
+
+        <nav class="header__nav">
+            <ul class="nav-container">
+                <li class="nav-container__item">
+                    <a href="http://beta.adalab.es/Project-promo-l-module-1-team-7/#anchor-team" class="nav-container__item--link">Equipo</a>
+                </li>
+                <li class="nav-container__item">
+                    <a href="http://beta.adalab.es/Project-promo-l-module-1-team-7/#anchor-who" class="nav-container__item--link" href="">quienes somos</a>
+
+                </li>
+                <li class="nav-container__item">
+                    <a class="nav-container__item--link" href="./contact.html" target="_blank">contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="container-hero-contact">
+            <div class="image-contact"></div>
+            <div class="slogan-box">
+                <p class="slogan-hidden">
+                    Fear is the path to the dark side. Fear leads to anger. Anger leads to hate. Hate leads to suffering.
+                    Fearle.css leads to success!</p>
+            </div>
+        </section>
+        <form class="form" action="//formspree.io/irenemanasalcaide@gmail.com" method="POST"></form>
+            <!--en action cambiar el url del mail-->
+
+            <label for="name">Nombre completo <span class="contact__main--star">*</span></label>
+            <input placeholder="Nombre..." id="name" type="text" name="name" required />
+
+            <label for="emailAddress">Email <span class="contact__main--star">*</span></label>
+            <input value="nombre.apellidos@mail.com" type="email" id="emailAddress" name="email" required />
+
+            <label for="telephoneNumber">Teléfono</label>
+            <input placeholder="Ej:123456789" id="telephoneNumber" type="number" name="telephoneNumber" />
+
+            <label for="comments">Mensaje <span class="contact__main--star">*</span></label>
+            <textarea id="comments" placeholder="¿Qué necesitas?" name="comments" required></textarea>
+
+            <input type="submit" value="Enviar" />
+
+        </form>
+    </main>
+    <footer class="container footer">
+      <div class="copyright">The Fearle.css &#169; 2020</div>
+      <ul class="footer__list">
+        <il class="footer__container">
+          <a class="footer__link" href="#anchor-team">EQUIPO</a>
+        </il>
+        <il class="footer__container">
+          <a class="footer__link" href="#anchor-who">QUIÉNES SOMOS</a>
+        </il>
+        <il class="footer__container">
+          <a class="footer__link" href="./contact.html">CONTACTO</a>
+        </il>
+      </ul>
+      <div class="logo__div">
+        <img
+          class="logo"
+          src="./assets/images/adalab_brand.png"
+          alt="logo-adalab"
+        />
+      </div>
+    </footer>
+
+</body>
+
+</html>
