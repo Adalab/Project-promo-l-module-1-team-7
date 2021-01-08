@@ -1,0 +1,17 @@
+.container-hero {
+  margin-bottom: 0;
+  height: 461px;
+  /*suma de 421 + (80/2) = 421 + 40 = 461*/
+  position: relative;
+}
+
+.image-contact {
+  background: url("../images/hero-contact-equipo-7.jpg") center no-repeat;
+  /* PREGUNTAR POR QUÉ NO NECESITA NUEVA RUTA*/
+  background-size: cover;
+  top: 0;
+  display: flex;
+  align-items: flex-end;
+  height: 421px;
+  width: 100%;
+}
