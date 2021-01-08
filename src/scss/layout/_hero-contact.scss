@@ -1,4 +1,4 @@
-.container-hero {
+.container-hero-contact {
   margin-bottom: 0;
   height: 461px;
   /*suma de 421 + (80/2) = 421 + 40 = 461*/
@@ -14,4 +14,8 @@
   align-items: flex-end;
   height: 421px;
   width: 100%;
+}
+
+.slogan-hidden {
+  display: none;
 }
