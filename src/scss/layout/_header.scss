@@ -75,7 +75,7 @@
       @media all and (min-width: 768px) {
         padding: 10px 9.5px 10px 9.5px;
       }
-      a:visited {
+      &:visited {
         color: var(--font-color-white);
         text-decoration: none;
       }
