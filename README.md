@@ -29,7 +29,7 @@ Para darle estilos a nuestras etiquetas, mucho CSS, que pasó a ser SASS y a ser
 Y por qué no, le aplicamos un poquito de Bloque + Elemento + Modificador: BEM.
 Anidamos lo que pudimos entre padres, madres e hijos.
 
-No sin antes haber cogido papel y boli, hacer dibujos y esquemas, y aplicar a nuestro plan: Flexbox y Diseño Responsive!
+No sin antes haber cogido papel y boli, hacer dibujos y esquemas y aplicar a nuestro plan: Flexbox y Diseño Responsive!
 
 Nos hemos peleado con Git y con GitHub, porque pushear entre cinco es bastante peligroso.
 
@@ -42,7 +42,7 @@ El proyecto lo hemos ido construyendo a medida que hemos ido absorbiendo conocim
 
 ## Cultura Agile
 
-La cultura **Agile** nos ha servido para enfrentarnos a este primer reto tecnológico. Siguiendo esta filosofía que se basa en poner en el centro a las personas para mejorar la calidad, desarrollar un mayor compromiso, siendo más rápido y aumentando la productividad.
+La cultura **Agile** nos ha servido para enfrentarnos a este primer reto tecnológico. Siguiendo esta filosofía que se basa en **poner en el centro a las personas**: para mejorar la calidad, desarrollar un mayor compromiso, siendo más rápido y aumentando la productividad.
 
 Nos ha supuesto una nueva forma de trabajar y de organizarnos.
 
@@ -58,11 +58,12 @@ El tablero **Kanban** ha sido la herramienta que hemos utilizado para visualizar
 Si te gusta nuestro trabajo y quieres saber más de nosotras, no dudes en **ponerte en contacto con las Fearle.css!**
 Aqui te dejamos nuestros enlaces a `LinkedIn`!
 Somos:
-[Camilla Bachna](https://www.linkedin.com/in/camilla-bachna-815147146)
-[Cristina Blanco](http://www.linkedin.com/in/cristina-blanco-iglesias)
-[Irene Mañas](https://www.linkedin.com/in/irene-ma%C3%B1as-alcaide-5343b516b/)
-[Laura Portillo](https://www.linkedin.com/in/laura-portillo-rodr%C3%ADguez-21965a86/)
-[Marta Cano](https://www.linkedin.com/in/martacacio/)
+
+- [Camilla Bachna](https://www.linkedin.com/in/camilla-bachna-815147146)
+- [Cristina Blanco](http://www.linkedin.com/in/cristina-blanco-iglesias)
+- [Irene Mañas](https://www.linkedin.com/in/irene-ma%C3%B1as-alcaide-5343b516b/)
+- [Laura Portillo](https://www.linkedin.com/in/laura-portillo-rodr%C3%ADguez-21965a86/)
+- [Marta Cano](https://www.linkedin.com/in/martacacio/)
 
 ### Agradecimientos
 
