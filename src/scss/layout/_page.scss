@@ -1,67 +1,65 @@
 :root {
-    --font-family-principal: "Open Sans", sans-serif;
-    --font-family-secundary: "Rubik", sans-serif;
-    --main-color: #099d8d;
-    /*LO VAMOS A ELIMINAR: REVISAR*/
-    --font-color-white: #ffffff;
-    --font-color-grey: #54585a;
-    --color-cool-grey-opacity: rgba(184, 184, 185, 0.2);
-    --color-aqua: #14d9c4;
-    --color-blue-green: #099d8d;
-    /* NOS QUEDAMOS ESTE*/
-    --color-black: #000000;
-    --color-light-grey: #b8b8b9;
+  --font-family-principal: "Open Sans", sans-serif;
+  --font-family-secundary: "Rubik", sans-serif;
+  --main-color: #099d8d;
+  /*LO VAMOS A ELIMINAR: REVISAR*/
+  --font-color-white: #ffffff;
+  --font-color-grey: #54585a;
+  --color-cool-grey-opacity: rgba(184, 184, 185, 0.2);
+  --color-aqua: #14d9c4;
+  --color-blue-green: #099d8d;
+  /* NOS QUEDAMOS ESTE*/
+  --color-black: #000000;
+  --color-light-grey: #b8b8b9;
 }
-
 
 /*Colores en variables ???*/
 
 .main {
-    position: relative;
-    top: 0;
-    border-bottom: solid var(--font-color-grey) 1px;
+  position: relative;
+  top: 0;
+  border-bottom: solid var(--font-color-grey) 1px;
 }
 
 .container {
-    margin: 0px 15px;
+  margin: 0px 15px;
 }
-
 
 /* EN TEAM, VAMOS A ESPERAR A QUE EQUIPO B DE LOS MARGENES A LOS CONTAINERS Y DESCRIPTIONS*/
 
 .description-p1 {
-    /*he separado el parrafo 1 para darle un espacio*/
-    text-align: center;
-    font-family: var(--font-family-principal);
-    font-size: 16px;
-    color: var(--font-color-grey);
-    margin-bottom: 30px;
+  /*he separado el parrafo 1 para darle un espacio*/
+  text-align: center;
+  font-family: var(--font-family-principal);
+  font-size: 16px;
+  color: var(--font-color-grey);
+  margin-bottom: 30px;
 }
 
 .description {
-    text-align: center;
-    font-family: var(--font-family-principal);
-    font-size: 16px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: normal;
-    color: var(--font-color-grey);
-    margin-bottom: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: 15px;
-    margin-right: 15px;
-    /*Ponemos mejor los margenes en cada container, segun explicacion de columna?*/
+  text-align: center;
+  font-family: var(--font-family-principal);
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: var(--font-color-grey);
+  margin-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  /*Ponemos mejor los margenes en cada container, segun explicacion de columna?*/
 }
 
 .profile {
-    margin: 0;
-    padding: 0 5px;
+  margin: 0;
+  padding: 0 5px;
 }
 
 .star {
-    color: var(--color-blue-green);
-    margin: 0 3px 0 3px;
+  color: var(--color-aqua); /* cambio de laura: el color es aqua*/
+  margin: 0 3px 0 3px;
 }

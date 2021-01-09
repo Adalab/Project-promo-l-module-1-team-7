@@ -1,27 +1,33 @@
-    .contact {
-        text-align: center;
-        margin-bottom: 25px;
-        margin-top: 30px;
-        font-family: var(--font-family-secundary);
-        font-size: 24px;
-        color: var(--color-blue-green);
-        font-weight: 500;
-        text-transform: uppercase;
-        @media all and (min-width: 768px) {
-            margin-top: 15px;
-        }
-        &__text {
-            @media all and (min-width: 768px) {
-                padding: 0 45px 0 45px;
-            }
-        }
+.contact {
+  text-align: center;
+  margin-bottom: 32px; /*para que sume 90px como zeplin*/
+  margin-top: 30px;
+  font-family: var(--font-family-secundary);
+  font-size: 24px;
+  color: var(--color-blue-green);
+  font-weight: 500;
+  text-transform: uppercase;
+  @media all and (min-width: 768px) {
+    margin-top: 30px; /*laura cambio*/
+  }
+  &__text {
+    @media all and (min-width: 768px) {
+      height: 120px; /*laura cambio*/
+      width: 442px; /*laura cambio*/
+      margin-left: 148px; /*163-15px*/
+      margin-right: 148px; /*laura cambio*/
+      margin-bottom: 58px; /*laura cambio*/
     }
-    
-    .small {
-        font-family: var(--font-family-principal);
-        font-size: 12px;
-        display: flex;
-        justify-content: center;
-        color: var( --font-color-grey);
-        margin-bottom: 58px;
-    }
+  }
+}
+
+.small {
+  font-family: var(--font-family-principal);
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  color: var(--font-color-grey);
+  margin-bottom: 58px;
+  margin-top: 30px;
+}
+/* NOTA: el texto está en description y no deberia tener ni margin ni paddding, le sobran 30px a cada lado, pero también quedaría mas feo el texto si no añadimos más palabras. VER*/
