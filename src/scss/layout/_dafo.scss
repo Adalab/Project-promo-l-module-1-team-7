@@ -1,59 +1,54 @@
-.container-dafo {
+.dafo {
   padding: 30px 15px 30px 15px;
   background-color: var(--color-cool-grey-opacity);
-}
-
-.triangle-box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.triangle {
-  width: 0;
-  height: 0;
-  border-right: 30px solid transparent;
-  border-left: 30px solid transparent;
-  border-top: 30px solid var(--font-color-white);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transform: translateY(-30px);
-}
-
-.title-strengths-weaknesses {
-  color: var(--color-blue-green);
-  font-family: var(--font-family-secundary);
-  font-size: 22px;
-  margin-bottom: 20px;
-  text-align: center;
-  text-transform: capitalize;
-}
-
-.strengths {
-  margin-bottom: 30px;
-  @media all and (min-width: 768px) {
-    width: 50%;
-  }
-  @media all and (min-width: 1200px) {
-    margin-right: 45px;
-  }
-}
-
-@media all and (min-width: 768px) {
-  .media-strengths-weaknesses {
+  &__triangle-box {
     display: flex;
-    flex-direction: row;
-    padding: 0 30px 0px 30px;
+    justify-content: center;
+    align-items: center;
+    &--triangle {
+      width: 0;
+      height: 0;
+      border-right: 30px solid transparent;
+      border-left: 30px solid transparent;
+      border-top: 30px solid var(--font-color-white);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transform: translateY(-30px);
+    }
   }
-
-  .weaknesses {
-    width: 50%;
+  &__container {
+    @media all and (min-width: 768px) {
+      display: flex;
+      flex-direction: row;
+      padding: 0 30px 0px 30px;
+    }
+    @media all and (min-width: 1200px) {
+      padding: 0 123px 0px 124px;
+    }
+    &--strengths {
+      margin-bottom: 30px;
+      @media all and (min-width: 768px) {
+        width: 50%;
+      }
+      @media all and (min-width: 1200px) {
+        margin-right: 45px;
+      }
+    }
+    &--title-strengths-weaknesses {
+      color: var(--color-blue-green);
+      font-family: var(--font-family-secundary);
+      font-size: 22px;
+      margin-bottom: 20px;
+      text-align: center;
+      text-transform: capitalize;
+    }
+    &--weaknesses {
+      @media all and (min-width: 768px) {
+      width: 50%;
+    }
   }
 }
-
-@media all and (min-width: 1200px) {
-  .media-strengths-weaknesses {
-    padding: 0 123px 0px 124px;
-  }
 }
+
+
