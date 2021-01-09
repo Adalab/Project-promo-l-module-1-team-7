@@ -10,19 +10,17 @@
         @media all and (min-width: 768px) {
             margin-top: 15px;
         }
-    }
-    
-    @media all and (min-width: 768px) {
-        .contact-container {
-            padding: 0 45px 60px 45px;
+        &__text {
+            @media all and (min-width: 768px) {
+                padding: 0 45px 60px 45px;
+                &--small {
+                    font-family: var(--font-family-principal);
+                    font-size: 12px;
+                    display: flex;
+                    justify-content: center;
+                    color: var( --font-color-grey);
+                    margin-bottom: 58px;
+                }
+            }
         }
-    }
-    
-    .small {
-        font-family: var(--font-family-principal);
-        font-size: 12px;
-        display: flex;
-        justify-content: center;
-        color: var( --font-color-grey);
-        margin-bottom: 58px;
     }

@@ -14,7 +14,7 @@
   <title>Equipo 7</title>
 </head>
 
-<body class="principal">
+<body">
   <header class="header">
 
       <h2 class="header__heading">The Fearle.css</h2>
@@ -22,10 +22,11 @@
       <nav class="header__nav">
           <ul class="nav-container">
               <li class="nav-container__item">
-                  <a href="http://beta.adalab.es/Project-promo-l-module-1-team-7/#anchor-team" class="nav-container__item--link">Equipo</a>
+                  <a href="http://localhost:3000//#anchor-team" class="nav-container__item--link">Equipo</a>
+                  <!-- tenemos que encontrar una solucion con @ -->
               </li>
               <li class="nav-container__item">
-                  <a href="http://beta.adalab.es/Project-promo-l-module-1-team-7/#anchor-who" class="nav-container__item--link" href="">quienes somos</a>
+                  <a href="http://localhost:3000//#anchor-who" class="nav-container__item--link">quienes somos</a>
 
               </li>
               <li class="nav-container__item">
@@ -35,10 +36,10 @@
       </nav>
   </header>
   <main class="main">
-    <section class="container-hero">
-        <div class="image"></div>
-        <div class="slogan-box">
-            <p class="slogan">
+    <section class="main__container-hero">
+        <div class="main__image"></div>
+        <div class="container__slogan-box">
+            <p class="container__slogan-box--text">
                 Fear is the path to the dark side. Fear leads to anger. Anger leads to hate. Hate leads to suffering.
                 Fearle.css leads to success!</p>
         </div>
@@ -50,13 +51,13 @@
             <p class="description">Futuras programadoras Front-End, todas venimos de diferentes ámbitos profesionales y estamos juntas en este nuevo y apasionante viaje. Es la era de las mujeres en las nuevas tecnologías: es nuestro momento!</p>
         </div>
     </section>
-    <section class="container-dafo">
-        <div class="triangle-box">
-            <div class="triangle"></div>
+    <section class="dafo">
+        <div class="dafo__triangle-box">
+            <div class="dafo__triangle-box--triangle"></div>
         </div>
-        <div class="media-strengths-weaknesses">
-            <div class="strengths">
-                <h2 class="title-strengths-weaknesses">Fortalezas</h2>
+        <div class="dafo__container">
+            <div class="dafo__container--strengths">
+                <h2 class="dafo__container--title-strengths-weaknesses">Fortalezas</h2>
                 <p class="description-p1">Nuestras decisiones dicen que somos valientes y resilientes, dedicadas a cumplir objetivos y superar los obstáculos, demuestran que somos profesionales y entregadas.
                 </p>
 
@@ -65,8 +66,8 @@
                 <p class="description"><strong>Somos Adalabers</strong> </p>
             </div>
 
-            <div class="weaknesses">
-                <h2 class="title-strengths-weaknesses">Debilidades</h2>
+            <div class="dafo__container--weaknesses">
+                <h2 class="dafo__container--title-strengths-weaknesses">Debilidades</h2>
                 <p class="description">Buscamos el mejor desempeño en nosotras mismas y en nuestros equipos, siempre ¿fortaleza o debilidad? Las horas se nos pasan volando, sin importar con qué y aún buscamos el mejor equilibrio entre el trabajo autónomo y el trabajo en equipo.
                 </p>
             </div>
@@ -88,10 +89,7 @@
                     nueva pasión: el desarrollo Front-End.
                 </p>
                 <section class="profile__left-text--icons l">
-                    <div>
-                        <i class="fa fa-twitter" aria-hidden="true" alt="icono-twitter"></i>
-                    </div>
-                    ·
+                    
                     <div>
                         <a class="link-icon" href="https://www.linkedin.com/in/camilla-bachna-815147146">
                             <i class="fa fa-linkedin" aria-hidden="true" alt="icono-linkedin"></i>
@@ -172,10 +170,7 @@
                     ha favorecido el ejercicio de diferentes roles en diversos equipos de trabajo.
                 </p>
                 <section class="profile__left-text--icons l">
-                    <div>
-                        <i class="fa fa-twitter" aria-hidden="true" alt="icono-twitter"></i>
-                    </div>
-                    ·
+                    
                     <div>
                         <a class="link-icon" href="https://www.linkedin.com/in/irene-ma%C3%B1as-alcaide-5343b516b/"
                             target=_blank>
@@ -215,7 +210,9 @@
                 </p>
                 <section class="profile__right-text--icons r">
                     <div>
-                        <i class="fa fa-twitter" aria-hidden="true" alt="icono-twitter"></i>
+                        <a class="link-icon" href="https://twitter.com/LauraPo02860847" target=_blank>
+                            <i class="fa fa-twitter" aria-hidden="true" alt="icono-twitter"></i>
+                        </a>
                     </div>
                     ·
                     <div>
@@ -254,10 +251,7 @@
                     una persona proactiva, creativa y con una mente abierta capaz de converger en una gran idea.
                 </p>
                 <section class="profile__left-text--icons l">
-                    <div>
-                        <i class="fa fa-twitter" aria-hidden="true" alt="icono-twitter"></i>
-                    </div>
-                    ·
+                    
                     <div>
                         <a class="link-icon" href="https://www.linkedin.com/in/martacacio/" target="_blank">
                             <i class="fa fa-linkedin" aria-hidden="true" alt="icono-linkedin"></i>
@@ -283,27 +277,22 @@
   </main>
 
   <footer class="container footer">
-    <div class="copyright">The Fearle.css &#169; 2020</div>
-    <ul class="footer__list">
-      <il class="footer__container">
-        <a class="footer__link" href="#anchor-team">EQUIPO</a>
-      </il>
-      <il class="footer__container">
-        <a class="footer__link" href="#anchor-who">QUIÉNES SOMOS</a>
-      </il>
-      <il class="footer__container">
-        <a class="footer__link" href="./contact.html">CONTACTO</a>
-      </il>
-    </ul>
-    <div class="logo__div">
-      <img
-        class="logo"
-        src="./assets/images/adalab_brand.png"
-        alt="logo-adalab"
-      />
-    </div>
+      <div class="copyright">The Fearle.css &#169; 2020</div>
+      <ul class="footer__list">
+          <il class="footer__container">
+              <a class="footer__link" href="http://localhost:3000//#anchor-team">EQUIPO</a>
+          </il>
+          <il class="footer__container">
+              <a class="footer__link" href="http://localhost:3000//#anchor-who">QUIÉNES SOMOS</a>
+          </il>
+          <il class="footer__container">
+              <a class="footer__link" href="./contact.html">CONTACTO</a>
+          </il>
+      </ul>
+      <div class="logo__div">
+          <img class="logo" src="./assets/images/adalab_brand.png" alt="logo-adalab" />
+      </div>
   </footer>
-
 </body>
 
 </html>
