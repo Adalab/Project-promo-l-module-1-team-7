@@ -1,118 +1,79 @@
+@import "core/variables";
 .form {
-  color: var(--font-color-grey); /*cambio laura*/
-  font-size: 14px; /*cambio laura*/
-  display: flex;
-  flex-direction: column;
-  margin: 60px;
-  justify-content: center;
-  margin: auto;
-  &__info {
-    font-family: var(--font-family-principal);
+    color: var(--font-color-grey);
+    /*cambio laura*/
+    font-size: 14px;
+    /*cambio laura*/
+    display: flex;
+    flex-direction: column;
+    margin: 60px;
+    justify-content: center;
     margin: auto;
-    &--box {
-      font-family: var(--font-family-principal);
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      width: 290px;
-      height: 45px;
-      padding: 11px 0 15px 15px;
-      margin-top: 7px;
-      margin-bottom: 13px;
-      color: var(--font-color-grey);
-      border: solid 1px #b8b8b9;
-      border-radius: 3px;
-      @media all and (min-width: 768px) {
-        width: 442px;
-      }
-      @media all and (min-width: 1200px) {
-        width: 601px;
-      }
+    &__info {
+        font-family: var(--font-family-principal);
+        margin: auto;
+        &--box {
+            @include box();
+            @media all and (min-width: 768px) {
+                width: 442px;
+            }
+            @media all and (min-width: 1200px) {
+                width: 601px;
+            }
+        }
+        &--box-mail {
+            @include box();
+            @media all and (min-width: 768px) {
+                width: 442px;
+            }
+            @media all and (min-width: 1200px) {
+                width: 395px;
+            }
+        }
+        &--box-phone {
+            @include box();
+            @media all and (min-width: 768px) {
+                width: 442px;
+            }
+            @media all and (min-width: 1200px) {
+                width: 192px;
+            }
+        }
+        &--box-message {
+            @include box();
+            height: 140px;
+            @media all and (min-width: 768px) {
+                width: 442px;
+            }
+            @media all and (min-width: 1200px) {
+                width: 601px;
+            }
+        }
+         ::placeholder {
+            color: var(--color-light-grey);
+        }
     }
-    &--box-mail {
-      font-family: var(--font-family-principal);
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      width: 290px;
-      height: 45px;
-      padding: 11px 0 15px 15px;
-      margin-top: 7px;
-      margin-bottom: 13px;
-      color: var(--font-color-grey);
-      border: solid 1px #b8b8b9;
-      border-radius: 3px;
-      @media all and (min-width: 768px) {
-        width: 442px;
-      }
-      @media all and (min-width: 1200px) {
-        width: 395px;
-      }
+    &__button {
+        width: 290px;
+        height: 45px;
+        padding: 11px 158px 12px 74px;
+        border-radius: 4px;
+        background-color: var(--color-blue-green);
+        text-transform: uppercase;
+        text-align: center;
+        color: var(--font-color-white);
+        border: 0px;
+        margin: auto;
+        margin-top: 30px;
+        padding: 0;
+        margin-bottom: 60px;
+        /*Laura ha añadido este cambio*/
+        @media all and (min-width: 768px) {
+            width: 206px;
+            margin-right: 163px;
+        }
+        @media all and (min-width: 1200px) {
+            width: 278px;
+        }
     }
-    &--box-phone {
-      font-family: var(--font-family-principal);
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      width: 290px;
-      height: 45px;
-      padding: 11px 0 15px 15px;
-      margin-top: 7px;
-      margin-bottom: 13px;
-      color: var(--font-color-grey);
-      border: solid 1px #b8b8b9;
-      border-radius: 3px;
-      @media all and (min-width: 768px) {
-        width: 442px;
-      }
-      @media all and (min-width: 1200px) {
-        width: 192px;
-      }
-    }
-    &--box-message {
-      font-family: var(--font-family-principal);
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      width: 290px;
-      height: 105px;
-      padding: 11px 0 15px 15px;
-      margin-top: 7px;
-      margin-bottom: 13px;
-      color: var(--font-color-grey);
-      border: solid 1px #b8b8b9;
-      border-radius: 3px;
-      @media all and (min-width: 768px) {
-        width: 442px;
-      }
-      @media all and (min-width: 1200px) {
-        width: 601px;
-      }
-    }
-    ::placeholder {
-      color: var(--color-light-grey);
-    }
-  }
-  &__button {
-    width: 290px;
-    height: 45px;
-    padding: 11px 158px 12px 74px;
-    border-radius: 4px;
-    background-color: var(--color-blue-green);
-    text-transform: uppercase;
-    text-align: center;
-    color: var(--font-color-white);
-    border: 0px;
-    margin: auto;
-    margin-top: 30px;
-    padding: 0;
-    margin-bottom: 60px; /*Laura ha añadido este cambio*/
-    @media all and (min-width: 768px) {
-      width: 206px;
-      margin-right: 163px;
-    }
-    @media all and (min-width: 1200px) {
-      width: 278px;
-    }
-  }
 }
