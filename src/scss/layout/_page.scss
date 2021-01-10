@@ -25,10 +25,7 @@
   margin: 0px 15px;
 }
 
-/* EN TEAM, VAMOS A ESPERAR A QUE EQUIPO B DE LOS MARGENES A LOS CONTAINERS Y DESCRIPTIONS*/
-
 .description-p1 {
-  /*he separado el parrafo 1 para darle un espacio*/
   text-align: center;
   font-family: var(--font-family-principal);
   font-size: 16px;
@@ -47,9 +44,6 @@
   letter-spacing: normal;
   color: var(--font-color-grey);
   margin-bottom: 15px;
-  margin-left: 15px;
-  margin-right: 15px;
-  /*Ponemos mejor los margenes en cada container, segun explicacion de columna?*/
 }
 
 .profile {
@@ -58,6 +52,6 @@
 }
 
 .star {
-  color: var(--color-aqua); /* cambio de laura: el color es aqua*/
+  color: var(--color-aqua);
   margin: 0 3px 0 3px;
 }
