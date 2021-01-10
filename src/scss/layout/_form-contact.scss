@@ -1,79 +1,107 @@
 @import "core/variables";
 .form {
-    color: var(--font-color-grey);
-    /*cambio laura*/
-    font-size: 14px;
-    /*cambio laura*/
+  color: var(--font-color-grey);
+  /*cambio laura*/
+  font-size: 14px;
+  /*cambio laura*/
+  display: flex;
+  flex-direction: column;
+  margin: 60px;
+  justify-content: center;
+  margin: auto;
+  @media all and (min-width: 1200px) {  /* cambio Cami */
     display: flex;
-    flex-direction: column;
-    margin: 60px;
-    justify-content: center;
+    margin-left: 299px;
+    flex-flow: row wrap;
+  }
+  &__info {
+    font-family: var(--font-family-principal);
     margin: auto;
-    &__info {
-        font-family: var(--font-family-principal);
-        margin: auto;
-        &--box {
-            @include box();
-            @media all and (min-width: 768px) {
-                width: 442px;
-            }
-            @media all and (min-width: 1200px) {
-                width: 601px;
-            }
-        }
-        &--box-mail {
-            @include box();
-            @media all and (min-width: 768px) {
-                width: 442px;
-            }
-            @media all and (min-width: 1200px) {
-                width: 395px;
-            }
-        }
-        &--box-phone {
-            @include box();
-            @media all and (min-width: 768px) {
-                width: 442px;
-            }
-            @media all and (min-width: 1200px) {
-                width: 192px;
-            }
-        }
-        &--box-message {
-            @include box();
-            height: 140px;
-            @media all and (min-width: 768px) {
-                width: 442px;
-            }
-            @media all and (min-width: 1200px) {
-                width: 601px;
-            }
-        }
-         ::placeholder {
-            color: var(--color-light-grey);
-        }
+    &--box {
+      @include box();
+      @media all and (min-width: 768px) {
+        width: 442px;
+      }
+      @media all and (min-width: 1200px) {
+        width: 601px;
+      }
     }
-    &__button {
-        width: 290px;
-        height: 45px;
-        padding: 11px 158px 12px 74px;
-        border-radius: 4px;
-        background-color: var(--color-blue-green);
-        text-transform: uppercase;
-        text-align: center;
-        color: var(--font-color-white);
-        border: 0px;
-        margin: auto;
-        margin-top: 30px;
-        padding: 0;
-        margin-bottom: 60px;
-        /*Laura ha añadido este cambio*/
-        @media all and (min-width: 768px) {
-            width: 206px;
-            margin-right: 163px;
-        }
-        @media all and (min-width: 1200px) {
-            width: 278px;
-        }
+    &--box-mail {
+      @include box();
+      @media all and (min-width: 768px) {
+        width: 442px;
+      }
+      @media all and (min-width: 1200px) {
+        width: 395px;
+      }
+    }
+    &--box-phone {
+      @include box();
+      @media all and (min-width: 768px) {
+        width: 442px;
+      }
+      @media all and (min-width: 1200px) {
+        width: 162px; /* He cambaido a 162px en lugar de 192px */
+      }
+    }
+    &--box-message {
+      @include box();
+      height: 105px; /* He cambaido a 105px en lugar de 140px */
+      @media all and (min-width: 768px) {
+        width: 442px;
+      }
+      @media all and (min-width: 1200px) {
+        width: 601px;
+      }
+    }
+    ::placeholder {
+      color: var(--color-light-grey);
+    }
+  }
+  &__button {
+    width: 290px;
+    height: 45px;
+    padding: 11px 158px 12px 74px;
+    border-radius: 4px;
+    background-color: var(--color-blue-green);
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--font-color-white);
+    border: 0px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 0;
+    margin-bottom: 60px;
+    /*Laura ha añadido este cambio*/
+    @media all and (min-width: 768px) {
+      width: 206px;
+      margin-right: 163px;
+    }
+    @media all and (min-width: 1200px) {
+      width: 278px;
+      margin-right: 300px; /* Cami ha añadido este cambio */
+    }
+  }
+}
+
+/* Cambio Cami*/
+
+.media{
+    @media all and (min-width: 1200px) {
+        width: 100%;
+    }
+}
+
+.media-mail{
+    @media all and (min-width: 1200px) {
+        width: 50%;
+        margin-left: 0px;
+    }
+    
+}
+.media-tel{
+    @media all and (min-width: 1200px) {
+        width: 50%;
+        margin-left: -30px;
     }
 }
