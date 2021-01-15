@@ -10,6 +10,9 @@
     @media all and (min-width: 768px) {
         margin-top: 30px;
     }
+    @media all and (min-width: 1200px) {
+        margin-top: 45px;
+    }
     &__text {
         @media all and (min-width: 768px) {
             height: 120px;

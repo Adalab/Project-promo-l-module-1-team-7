@@ -42,42 +42,83 @@
                     Fearle.css leads to success!</p>
             </div>
         </section>
-        <section class="container" id="anchor-team">
+        <section class="container" id="anchor-team"> <!-- Porque anchor-team? -->
             <h2 class="contact">Contacto</h2>
-            <div class="contact-container">
-                <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste laudantium odit eveniet vero, possimus quisquam enim mollitia sed fugit placeat quia omnis, voluptate itaque maxime explicabo, quidem incidunt inventore. Vero?</p>
+            <div class="contact__text">
+                <p class="description">Si te gusta nuestro trabajo y quieres saber más de nosotras, no dudes
+                    en ponerte en
+                    contacto con las Fearle.css!</p>
 
-                <small class="small">Todos los campos marcados con <p class="star"> * 
-                </p> son obligatorios</small>
+                <small class="small">Todos los campos marcados con <p class="star">*</p> son obligatorios
+
+                </small>
             </div>
 
         </section>
-        <form class="form" action="https://formspree.io/f/xzbkyglo" method="POST" class="form">
-            <div class="form__info">
-                <label for="name">Nombre completo <span class="star">*</span></label>
-                <input placeholder="Nombre..." id="name" type="text" name="name" required class="form__info--box" />
-            </div>
+        <form
+          class="form"
+          action="https://formspree.io/f/xzbkyglo"
+          method="POST"
+          class="form"
+        >
+          <div class="form__info media">
+            <label class="text" for="name"
+              >Nombre completo <span class="star">*</span></label
+            >
+            <input
+              placeholder="Nombre..."
+              id="name"
+              type="text"
+              name="name"
+              required
+              class="form__info--box"
+            />
+          </div>
 
-            <div class="form__info">
-                <label for="emailAddress">Email <span class="star">*</span></label>
-                <input value="nombre.apellidos@mail.com" type="email" id="emailAddress" name="email" required class="form__info--box" />
-            </div>
+          <div class="form__info media-mail">
+            <label class="text" for="emailAddress"
+              >Email <span class="star">*</span></label
+            >
+            <input
+              value="nombre.apellidos@mail.com"
+              type="email"
+              id="emailAddress"
+              name="email"
+              required
+              class="form__info--box-mail"
+            />
+          </div>
 
-            <div class="form__info">
-                <label for="telephoneNumber">Teléfono</label>
-                <input placeholder="Ej:123456789" id="telephoneNumber" type="number" name="telephoneNumber" class="form__info--box" />
-            </div>
+          <div class="form__info media-tel">
+            <label class="text" for="telephoneNumber">Teléfono</label>
+            <input
+              placeholder="Ej:123456789"
+              id="telephoneNumber"
+              type="number"
+              name="telephoneNumber"
+              class="form__info--box-phone"
+            />
+          </div>
 
-            <div class="form__info">
-                <label for="comments">Mensaje <span class="star">*</span></label>
-                <textarea id="comments" placeholder="¿Qué necesitas?" name="comments" required class="form__info--box"></textarea>
-            </div>
+          <div class="form__info media">
+            <label class="text" for="comments"
+              >Mensaje <span class="star">*</span></label
+            >
+            <textarea
+              id="comments"
+              placeholder="¿Qué necesitas?"
+              name="comments"
+              required
+              class="form__info--box-message"
+            ></textarea>
+          </div>
 
-            <input type="submit" value="Enviar" class="form__button" />
+          <input type="submit" value="Enviar" class="form__button" />
         </form>
+
     </main>
     <footer class="container footer">
-        <div class="copyright">The Fearle.css &#169; 2020</div>
+        <div class="copyright">The Fearle.css &#169; 2021</div>
         <ul class="footer__list">
             <il class="footer__container">
                 <a class="footer__link" href="http://localhost:3000//#anchor-team">EQUIPO</a>
