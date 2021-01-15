@@ -6,17 +6,23 @@
   /*cambio laura*/
   display: flex;
   flex-direction: column;
-  margin: 60px;
   justify-content: center;
-  margin: auto;
-  @media all and (min-width: 1200px) {  /* cambio Cami */
+  width: 320px;
+  margin: auto; 
+  @media all and (min-width: 768px) {  
+  width:768px;
+  }
+  @media all and (min-width: 1200px) {  
     display: flex;
-    margin-left: 299px;
     flex-flow: row wrap;
+    width:1200px;
   }
   &__info {
     font-family: var(--font-family-principal);
     margin: auto;
+    @media all and (min-width: 1200px) {
+      margin-left: 299px;
+    }
     &--box {
       @include box();
       @media all and (min-width: 768px) {
@@ -41,12 +47,12 @@
         width: 442px;
       }
       @media all and (min-width: 1200px) {
-        width: 162px; /* He cambaido a 162px en lugar de 192px */
+        width: 162px; 
       }
     }
     &--box-message {
       @include box();
-      height: 105px; /* He cambaido a 105px en lugar de 140px */
+      height: 105px; 
       @media all and (min-width: 768px) {
         width: 442px;
       }
@@ -68,7 +74,7 @@
     text-align: center;
     color: var(--font-color-white);
     border: 0px;
-    margin: auto;
+    margin: auto; 
     margin-top: 30px;
     padding: 0;
     margin-bottom: 60px;
@@ -79,7 +85,7 @@
     }
     @media all and (min-width: 1200px) {
       width: 278px;
-      margin-right: 300px; /* Cami ha añadido este cambio */
+      margin-right: 300px; 
     }
   }
 }
@@ -94,14 +100,15 @@
 
 .media-mail{
     @media all and (min-width: 1200px) {
-        width: 50%;
+        width: 11%;
         margin-left: 0px;
+        margin-left: 299px;
     }
     
 }
 .media-tel{
     @media all and (min-width: 1200px) {
-        width: 50%;
-        margin-left: -30px;
+        width: 11%;
+        margin-right: 330px;
     }
 }
