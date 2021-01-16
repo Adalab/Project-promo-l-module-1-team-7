@@ -40,24 +40,127 @@
     font-size: 18px;
     font-weight: 600;
     width: 290px;
-    height: 80px;
+    height: 100px;
     background-color: var(--font-color-white);
     display: flex;
     justify-content: center;
     align-items: center;
     transform: translateY(-50%);
     width: 100%;
+    padding-left: 5px;
+    &:after {
+      animation-duration: 6s;
+      animation-name: slogan;
+      animation-iteration-count: 1;
+      animation-timing-function: linear;
+      content: "Fear is the path to the dark side. Fear leads to anger. Anger leads to hate. Fearle.css leads to success!";
+    }
+    @keyframes slogan {
+      from {
+        width: 290px;
+        height: 80px;
+        bottom: 0;
+        transform-origin: 50% 100%;
+        transform: perspective(300px) rotateX(25deg);
+        content: "Fear is the path to the dark side.";
+      }
+      25% {
+        width: 290px;
+        height: 90px;
+        content: "Fear is the path to the dark side. Fear leads to anger.";
+      }
+      50% {
+        width: 290px;
+        height: 100px;
+        content: "Fear is the path to the dark side. Fear leads to anger. Anger leads to hate.";
+      }
+      100% {
+        width: 290px;
+        height: 100px;
+        top: 0;
+        bottom: 60%;
+        content: "Fear is the path to the dark side. Fear leads to anger. Anger leads to hate. Fearle.css leads to success!";
+      }
+    }
     @media all and (min-width: 768px) {
       width: 441px;
       height: 80px;
       opacity: 0.8;
       transform: translateY(-100%);
+      &:after {
+        animation-duration: 6s;
+        animation-name: slogan;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+        content: "Fear is the path to the dark side. Fear leads to anger. Anger leads to hate. Fearle.css leads to success!";
+      }
+      @keyframes slogan {
+        from {
+          width: 441px;
+          height: 80px;
+          bottom: 0;
+          transform-origin: 50% 100%;
+          transform: perspective(300px) rotateX(25deg);
+          content: "Fear is the path to the dark side.";
+        }
+        25% {
+          width: 441px;
+          height: 80px;
+          content: "Fear is the path to the dark side. Fear leads to anger.";
+        }
+        50% {
+          width: 441px;
+          height: 80px;
+          content: "Fear is the path to the dark side. Fear leads to anger. Anger leads to hate.";
+        }
+        100% {
+          width: 441px;
+          height: 80px;
+          top: 0;
+          bottom: 60%;
+          content: "Fear is the path to the dark side. Fear leads to anger. Anger leads to hate. Fearle.css leads to success!";
+        }
+      }
     }
     @media all and (min-width: 1200px) {
       width: 574px;
       height: 90px;
       padding: 15px 30px;
       font-size: 24px;
+      &:after {
+        animation-duration: 6s;
+        animation-name: slogan;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+        content: "Fear is the path to the dark side. Fear leads to anger. Anger leads to hate. Fearle.css leads to success!";
+      }
+      @keyframes slogan {
+        from {
+          width: 574px;
+          height: 90px;
+          bottom: 0;
+          transform-origin: 50% 100%;
+          transform: perspective(300px) rotateX(25deg);
+          content: "Fear is the path to the dark side.";
+        }
+        25% {
+          width: 574px;
+          height: 90px;
+          content: "Fear is the path to the dark side. Fear leads to anger.";
+        }
+        50% {
+          width: 574px;
+          height: 90px;
+          content: "Fear is the path to the dark side. Fear leads to anger. Anger leads to hate.";
+        }
+        100% {
+          width: 574px;
+          height: 90px;
+          top: 0;
+          bottom: 60%;
+          content: "Fear is the path to the dark side. Fear leads to anger. Anger leads to hate. Fearle.css leads to success!";
+        }
+      }
     }
   }
 }
