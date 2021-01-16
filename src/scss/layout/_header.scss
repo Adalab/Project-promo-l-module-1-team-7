@@ -23,13 +23,11 @@
         width: 70%;
         opacity: 0.95;
         font-size: 16px;
-        background-color: var(--main-color);
         @media all and (min-width: 768px) {
             display: inline-block;
-            transform: translateY(-10px);
-            text-align: left;
+            transform: translateY(-4px);
             padding-left: 45px;
-            height: 0;
+            width: 40%;
         }
         @media all and (min-width: 1200px) {
             padding-left: 142px;
