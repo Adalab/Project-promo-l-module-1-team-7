@@ -56,6 +56,11 @@
         color: var(--font-color-grey);
         text-decoration: none;
         font-size: 14px;
+        transition: border-bottom 1s, font-size 1s;
+        &:hover {
+            border-bottom: 2px solid var(--font-color-grey);
+            font-size: 15px;
+        }
         &:visited {
             color: var(--font-color-grey);
             text-decoration: none;
