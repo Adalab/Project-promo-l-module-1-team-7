@@ -1,8 +1,8 @@
 ![Adalab](https://beta.adalab.es/resources/images/adalab-logo-155x61-bg-white.png)
 
-# The Fearle.css Project
+# The Fearle.scss Project
 
-**The Fearle.css** es el proyecto de 5 mujeres valientes que un día tomaron la decisión de convertise en **Adalabers**. Que decidieron reinventarse y apostar por la tecnología.
+**The Fearle.scss** es el proyecto de 5 mujeres valientes que un día tomaron la decisión de convertise en **Adalabers**. Que decidieron reinventarse y apostar por la tecnología.
 
 Este proyecto es nuestra primera toma de contacto con la programación y no podemos sentirnos más orgullosas del resultado.
 
@@ -12,11 +12,11 @@ Juntas hemos aprendido, hemos debatido, nos hemos caído y levantado, nos hemos 
 
 5 mujeres sin miedo.
 
-**Because Fearle.css leads to success!**
+**Because Fearle.scss leads to success!**
 
 ### Nuestra web
 
-Haz click aqui si quieres ver [The Fearle.css Project](http://beta.adalab.es/Project-promo-l-module-1-team-7/)
+Haz click aqui si quieres ver [The Fearle.scss Project](http://beta.adalab.es/Project-promo-l-module-1-team-7/)
 
 ## Descripción Técnica
 
@@ -55,7 +55,7 @@ El tablero **Kanban** ha sido la herramienta que hemos utilizado para visualizar
 
 ## Autoras
 
-Si te gusta nuestro trabajo y quieres saber más de nosotras, no dudes en **ponerte en contacto con las Fearle.css!**
+Si te gusta nuestro trabajo y quieres saber más de nosotras, no dudes en **ponerte en contacto con The Fearle.scss!**
 Aqui te dejamos nuestros enlaces a `LinkedIn`!
 Somos:
 

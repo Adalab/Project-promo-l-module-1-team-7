@@ -1,7 +1,6 @@
 .main__container-hero {
   margin-bottom: 0;
   height: 461px;
-  /*suma de 421 + (80/2) = 421 + 40 = 461*/
   position: relative;
 }
 
@@ -32,7 +31,6 @@
   }
   @media all and (min-width: 1200px) {
     margin-left: 92px;
-    /*138-46*/
   }
   &--text {
     font-family: var(--font-family-principal);
