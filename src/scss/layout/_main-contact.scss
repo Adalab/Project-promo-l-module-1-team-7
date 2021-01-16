@@ -1,38 +1,38 @@
 .contact {
-    text-align: center;
-    margin-bottom: 32px;
+  text-align: center;
+  margin-bottom: 32px;
+  margin-top: 30px;
+  font-family: var(--font-family-secundary);
+  font-size: 24px;
+  color: var(--main-color);
+  font-weight: 500;
+  text-transform: uppercase;
+  @media all and (min-width: 768px) {
     margin-top: 30px;
-    font-family: var(--font-family-secundary);
-    font-size: 24px;
-    color: var(--color-blue-green);
-    font-weight: 500;
-    text-transform: uppercase;
+  }
+  @media all and (min-width: 1200px) {
+    margin-top: 45px;
+  }
+  &__text {
     @media all and (min-width: 768px) {
-        margin-top: 30px;
+      height: 120px;
+      width: 442px;
+      margin: auto;
+      margin-bottom: 58px;
     }
     @media all and (min-width: 1200px) {
-        margin-top: 45px;
+      height: 96px;
+      width: 601px;
     }
-    &__text {
-        @media all and (min-width: 768px) {
-            height: 120px;
-            width: 442px;
-            margin:auto;
-            margin-bottom: 58px;
-        }
-        @media all and (min-width: 1200px) {
-            height: 96px;
-            width: 601px;
-        }
-    }
+  }
 }
 
 .small {
-    font-family: var(--font-family-principal);
-    font-size: 12px;
-    display: flex;
-    justify-content: center;
-    color: var(--font-color-grey);
-    margin-bottom: 58px;
-    margin-top: 30px;
+  font-family: var(--font-family-principal);
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  color: var(--font-color-grey);
+  margin-bottom: 58px;
+  margin-top: 30px;
 }

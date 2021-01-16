@@ -37,7 +37,7 @@
       }
     }
     &--title-strengths-weaknesses {
-      color: var(--color-blue-green);
+      color: var(--main-color);
       font-family: var(--font-family-secundary);
       font-size: 22px;
       margin-bottom: 20px;
@@ -46,10 +46,8 @@
     }
     &--weaknesses {
       @media all and (min-width: 768px) {
-      width: 50%;
+        width: 50%;
+      }
     }
   }
 }
-}
-
-

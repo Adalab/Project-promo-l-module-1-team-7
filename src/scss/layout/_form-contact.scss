@@ -1,21 +1,19 @@
 @import "core/variables";
 .form {
   color: var(--font-color-grey);
-  /*cambio laura*/
   font-size: 14px;
-  /*cambio laura*/
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 320px;
-  margin: auto; 
-  @media all and (min-width: 768px) {  
-  width:768px;
+  margin: auto;
+  @media all and (min-width: 768px) {
+    width: 768px;
   }
-  @media all and (min-width: 1200px) {  
+  @media all and (min-width: 1200px) {
     display: flex;
     flex-flow: row wrap;
-    width:1200px;
+    width: 1200px;
   }
   &__info {
     font-family: var(--font-family-principal);
@@ -47,12 +45,12 @@
         width: 442px;
       }
       @media all and (min-width: 1200px) {
-        width: 162px; 
+        width: 162px;
       }
     }
     &--box-message {
       @include box();
-      height: 105px; 
+      height: 105px;
       @media all and (min-width: 768px) {
         width: 442px;
       }
@@ -69,45 +67,43 @@
     height: 45px;
     padding: 11px 158px 12px 74px;
     border-radius: 4px;
-    background-color: var(--color-blue-green);
+    background-color: var(--main-color);
     text-transform: uppercase;
     text-align: center;
     color: var(--font-color-white);
     border: 0px;
-    margin: auto; 
+    margin: auto;
     margin-top: 30px;
     padding: 0;
     margin-bottom: 60px;
-    /*Laura ha añadido este cambio*/
     @media all and (min-width: 768px) {
       width: 206px;
       margin-right: 163px;
     }
     @media all and (min-width: 1200px) {
       width: 278px;
-      margin-right: 300px; 
+      margin-right: 300px;
       margin-bottom: 120px;
     }
   }
 }
 
-.media{
-    @media all and (min-width: 1200px) {
-        width: 100%;
-    }
+.media {
+  @media all and (min-width: 1200px) {
+    width: 100%;
+  }
 }
 
-.media-mail{
-    @media all and (min-width: 1200px) {
-        width: 11%;
-        margin-left: 0px;
-        margin-left: 299px;
-    }
-    
+.media-mail {
+  @media all and (min-width: 1200px) {
+    width: 11%;
+    margin-left: 0px;
+    margin-left: 299px;
+  }
 }
-.media-tel{
-    @media all and (min-width: 1200px) {
-        width: 11%;
-        margin-right: 330px;
-    }
+.media-tel {
+  @media all and (min-width: 1200px) {
+    width: 11%;
+    margin-right: 330px;
+  }
 }
