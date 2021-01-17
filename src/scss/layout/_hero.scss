@@ -38,7 +38,7 @@
     font-size: 18px;
     font-weight: 600;
     width: 290px;
-    height: 100px;
+    height: 82px;
     background-color: var(--font-color-white);
     display: flex;
     justify-content: center;
@@ -51,7 +51,7 @@
       animation-name: slogan;
       animation-iteration-count: 1;
       animation-timing-function: linear;
-      content: "Fear is the path to the dark side. Fear leads to anger. Anger leads to hate. Fearle.scss leads to success!";
+      content: "Fearle.scss leads to success!";
     }
     @keyframes slogan {
       from {
