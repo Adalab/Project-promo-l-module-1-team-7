@@ -4,9 +4,9 @@
   grid-template-rows: 2.9% 1fr;
   @media all and (min-width: 768px) {
     grid-template-rows: 6.3% 1fr;
-    @media all and (min-width: 1200px) {
-      grid-template-rows: 5.8% 1fr;
-    }
+  }
+  @media all and (min-width: 1200px) {
+    grid-template-rows: 5.8% 1fr;
   }
   &__tittle {
     grid-column: span 1;
