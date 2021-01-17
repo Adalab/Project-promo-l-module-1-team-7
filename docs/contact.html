@@ -9,45 +9,56 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Rubik:wght@500&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css" integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous" />
     <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="icon" href="./assets/images/favicon.png">
     <title>Contacto</title>
 </head>
 
 <body class="principal">
+
     <header class="header">
-
-        <h2 class="header__heading">The Fearle.css</h2>
-
-        <nav class="header__nav">
-            <ul class="nav-container">
-                <li class="nav-container__item">
-                    <a href="http://localhost:3000//#anchor-team" class="nav-container__item--link">Equipo</a>
-                    <!-- tenemos que encontrar una solucion con @ -->
-                </li>
-                <li class="nav-container__item">
-                    <a href="http://localhost:3000//#anchor-who" class="nav-container__item--link">quienes somos</a>
-
-                </li>
-                <li class="nav-container__item">
-                    <a class="nav-container__item--link" href="./contact.html" target="_blank">contacto</a>
-                </li>
-            </ul>
-        </nav>
+      <img
+        class="header__logo"
+        src="./assets/images/logo-fearless.png"
+        alt="logo the fearle.css"
+      />
+      <nav class="header__nav">
+        <ul class="nav-container">
+          <li class="nav-container__item">
+            <a href="./#anchor-team" class="nav-container__item--link">Equipo</a>
+          </li>
+          <li class="nav-container__item">
+            <a href="./#anchor-who" class="nav-container__item--link"
+              >Quiénes somos</a
+            >
+          </li>
+          <li class="nav-container__item">
+            <a
+              class="nav-container__item--link"
+              href="./contact.html"
+              target="_blank"
+              >Contacto</a
+            >
+          </li>
+        </ul>
+      </nav>
     </header>
+
+
     <main class="main">
         <section class="container-hero-contact">
             <div class="image-contact"></div>
             <div class="container__slogan-box">
                 <p class="slogan-hidden">
-                    Fear is the path to the dark side. Fear leads to anger. Anger leads to hate. Hate leads to suffering.
-                    Fearle.css leads to success!</p>
+                    <!-- Fear is the path to the dark side. Fear leads to anger. Anger leads to hate. Hate leads to suffering.
+                    Fearle.css leads to success! --></p>
             </div>
         </section>
-        <section class="container" id="anchor-team"> <!-- Porque anchor-team? -->
+        <section class="container"> 
             <h2 class="contact">Contacto</h2>
             <div class="contact__text">
                 <p class="description">Si te gusta nuestro trabajo y quieres saber más de nosotras, no dudes
                     en ponerte en
-                    contacto con las Fearle.css!</p>
+                    contacto con The Fearle.scss!</p>
 
                 <small class="small">Todos los campos marcados con <p class="star">*</p> son obligatorios
 
@@ -55,79 +66,44 @@
             </div>
 
         </section>
-        <form
-          class="form"
-          action="https://formspree.io/f/xzbkyglo"
-          method="POST"
-          class="form"
-        >
+        <form class="form" action="https://formspree.io/f/xzbkyglo" method="POST" class="form">
           <div class="form__info media">
-            <label class="text" for="name"
-              >Nombre completo <span class="star">*</span></label
-            >
-            <input
-              placeholder="Nombre..."
-              id="name"
-              type="text"
-              name="name"
-              required
-              class="form__info--box"
-            />
+            <label class="text" for="name">Nombre completo <span class="star">*</span></label>
+            <input placeholder="Nombre..." id="name" type="text" name="name" required class="form__info--box" />
           </div>
 
           <div class="form__info media-mail">
-            <label class="text" for="emailAddress"
-              >Email <span class="star">*</span></label
-            >
-            <input
-              value="nombre.apellidos@mail.com"
-              type="email"
-              id="emailAddress"
-              name="email"
-              required
-              class="form__info--box-mail"
-            />
+            <label class="text" for="emailAddress">Email <span class="star">*</span></label>
+            <input value="nombre.apellidos@mail.com" type="email" id="emailAddress" name="email" required
+              class="form__info--box-mail" />
           </div>
 
           <div class="form__info media-tel">
             <label class="text" for="telephoneNumber">Teléfono</label>
-            <input
-              placeholder="Ej:123456789"
-              id="telephoneNumber"
-              type="number"
-              name="telephoneNumber"
-              class="form__info--box-phone"
-            />
+            <input placeholder="Ej:123456789" id="telephoneNumber" type="number" name="telephoneNumber"
+              class="form__info--box-phone" />
           </div>
 
           <div class="form__info media">
-            <label class="text" for="comments"
-              >Mensaje <span class="star">*</span></label
-            >
-            <textarea
-              id="comments"
-              placeholder="¿Qué necesitas?"
-              name="comments"
-              required
-              class="form__info--box-message"
-            ></textarea>
+            <label class="text" for="comments">Mensaje <span class="star">*</span></label>
+            <textarea id="comments" placeholder="¿Qué necesitas?" name="comments" required
+              class="form__info--box-message"></textarea>
           </div>
 
           <input type="submit" value="Enviar" class="form__button" />
         </form>
-
     </main>
     <footer class="container footer">
-        <div class="copyright">The Fearle.css &#169; 2021</div>
+        <div class="copyright">The Fearle.scss &#169; 2021</div>
         <ul class="footer__list">
             <il class="footer__container">
-                <a class="footer__link" href="http://localhost:3000//#anchor-team">EQUIPO</a>
+                <a class="footer__link" href="./#anchor-team">Equipo</a>
             </il>
             <il class="footer__container">
-                <a class="footer__link" href="http://localhost:3000//#anchor-who">QUIÉNES SOMOS</a>
+                <a class="footer__link" href="./#anchor-who">Quiénes somos</a>
             </il>
             <il class="footer__container">
-                <a class="footer__link" href="./contact.html">CONTACTO</a>
+                <a class="footer__link" href="./contact.html" target="_blank">Contacto</a>
             </il>
         </ul>
         <div class="logo__div">
