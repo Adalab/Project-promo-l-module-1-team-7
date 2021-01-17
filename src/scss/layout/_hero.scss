@@ -6,12 +6,12 @@
 }
 
 .main__image {
-    background: url("../alien.png") no-repeat;
+    background: url("../images/alien.png") no-repeat;
     background-size: cover;
     background-position: center center;
     top: 0;
-    /*display: flex;
-  align-items: center;*/
+    display: flex;
+    align-items: center;
     height: 421px;
     width: 100%;
 }
