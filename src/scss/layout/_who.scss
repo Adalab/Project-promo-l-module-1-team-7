@@ -2,9 +2,15 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 2.9% 1fr;
+  @media all and (min-width: 768px) {
+    grid-template-rows: 6.3% 1fr;
+    @media all and (min-width: 1200px) {
+      grid-template-rows: 5.8% 1fr;
+    }
+  }
   &__tittle {
     grid-column: span 1;
-    grid-template-rows: span 1;
+    grid-row: span 1;
     margin: 30px 68px;
     text-transform: uppercase;
     text-align: center;
@@ -19,11 +25,10 @@
     color: var(--main-color);
     @media all and (min-width: 768px) {
       padding: 0;
-      margin: auto;
-      margin-top: 45px;
+      margin: 45px auto;
     }
     @media all and (min-width: 1200px) {
-      margin-bottom: 3px;
+      margin-bottom: 41px;
     }
   }
 }
@@ -34,7 +39,7 @@
     @media all and (min-width: 768px) {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
-      margin: 41px 44px 60px 44px;
+      margin: 0 44px 60px 44px;
     }
     @media all and (min-width: 1200px) {
       flex-direction: row;
