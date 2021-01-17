@@ -1,14 +1,21 @@
 .who {
-  text-align: center;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2.9% 1fr;
+  @media all and (min-width: 768px) {
+    grid-template-rows: 6.3% 1fr;
+    @media all and (min-width: 1200px) {
+      grid-template-rows: 5.8% 1fr;
+    }
+  }
   &__tittle {
+    grid-column: span 1;
+    grid-row: span 1;
+    margin: 30px 68px;
     text-transform: uppercase;
     text-align: center;
     width: 193px;
-    margin: auto;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    line-height: 45px;
+    height: 30px;
     font-family: var(--font-family-secundary);
     font-size: 24px;
     font-weight: 500;
@@ -18,25 +25,20 @@
     color: var(--main-color);
     @media all and (min-width: 768px) {
       padding: 0;
-      margin: auto;
-      margin-top: 45px;
-      margin-bottom: 41px;
+      margin: 45px auto;
     }
     @media all and (min-width: 1200px) {
-      margin-bottom: 3px;
+      margin-bottom: 41px;
     }
   }
 }
 .profile {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
+  text-align: center;
   padding: 0;
-
   &__left {
     @media all and (min-width: 768px) {
-      flex-direction: row;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
       margin: 0 44px 60px 44px;
     }
     @media all and (min-width: 1200px) {
@@ -46,7 +48,9 @@
   }
   &__right {
     @media all and (min-width: 768px) {
-      flex-direction: row-reverse;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr;
       margin: 0 44px 60px 44px;
     }
     @media all and (min-width: 1200px) {
@@ -61,7 +65,7 @@
     justify-content: center;
     height: 190px;
     width: 190px;
-    margin: 0 55px 15px;
+    margin: 0 70px 15px;
     border-radius: 4px;
     @media all and (min-width: 768px) {
       @include frame(215px, 215px, auto, 10px);
@@ -86,9 +90,11 @@
   }
   &__left-text {
     margin-bottom: 45px;
+    padding: 0 15px;
     @media all and (min-width: 768px) {
       margin-left: 30px;
       margin-bottom: 0;
+      grid-column: 2 / 4;
     }
     @media all and (min-width: 1200px) {
       margin-left: 45px;
@@ -105,9 +111,12 @@
   }
   &__right-text {
     margin-bottom: 45px;
+    padding: 0 15px;
     @media all and (min-width: 768px) {
       margin-right: 30px;
       margin-bottom: 0;
+      grid-column: 1 / 3;
+      grid-row: 1 / 1;
     }
     @media all and (min-width: 1200px) {
       margin-right: 45px;
@@ -139,7 +148,6 @@
     margin-left: auto;
   }
 }
-
 .link-icon {
   color: var(--main-color);
   &:visited {
